@@ -26,8 +26,8 @@ const ServiceOfferings = ({ config }: ServiceOfferingsProps) => {
                             sizes="100vw"
                             style={{ width: '100%', height: '100%' }}
                             className="object-cover z-0 rounded-lg hover:zoom-in-50" />
-                        <div className="absolute z-50 pl-5">
-                            <p className="text-3xl font-bold">{item.title}</p>
+                        <div className="absolute z-30 pl-5">
+                            <p className="text-3xl font-bold text-white">{item.title}</p>
                         </div>
                     </div>
                 </div>

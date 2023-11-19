@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ArrowDownIcon } from "@radix-ui/react-icons";
-import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import { ContactUsForm } from "@/components/contact-us-form";
 import CompanyLocations from "@/components/company-locations";
@@ -27,9 +26,7 @@ export default function ContactPage() {
                         </Link>
                     </Button>
                 </div>
-                <div className="flex pt-20 h-min">
-                    <Image alt="contact-us" src="/contact-us.webp" width={1500} height={50} />
-                </div>
+
 
                 <div id="send-message" className="flex flex-1 flex-row pt-36 pb-36">
                     <div className="flex flex-1 flex-col space-y-5 pr-5">

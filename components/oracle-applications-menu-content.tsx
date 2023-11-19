@@ -13,17 +13,17 @@ const oracleAppsMenuItemsConfig: OracleAppsMenuItemsConfig = {
             items: [
                 {
                     title: 'Demand Planning Cloud',
-                    href: 'supply-chain-planning-cloud/demand-planning-cloud',
+                    href: '/demand-planning-cloud',
                     items: []
                 },
                 {
                     title: 'Supply Planning Cloud',
-                    href: 'supply-chain-planning-cloud/supply-planning-cloud',
+                    href: '/supply-planning-cloud',
                     items: []
                 },
                 {
                     title: 'Sales & Operations Planning Cloud',
-                    href: 'supply-chain-planning-cloud/sales-operations-planning-cloud',
+                    href: '/sales-operations-planning-cloud',
                     items: []
                 }
             ]
@@ -33,17 +33,17 @@ const oracleAppsMenuItemsConfig: OracleAppsMenuItemsConfig = {
             items: [
                 {
                     title: 'Inventory Management Cloud',
-                    href: 'supply-chain-execution-cloud/inventory-management-cloud',
+                    href: '/inventory-management-cloud',
                     items: []
                 },
                 {
                     title: 'Order Management Cloud',
-                    href: 'supply-chain-execution-cloud/order-management-cloud',
+                    href: '/order-management-cloud',
                     items: []
                 },
                 {
                     title: 'Procurement Cloud',
-                    href: 'supply-chain-execution-cloud/procurement-cloud',
+                    href: '/procurement-cloud',
                     items: []
                 }
             ]
@@ -53,17 +53,17 @@ const oracleAppsMenuItemsConfig: OracleAppsMenuItemsConfig = {
             items: [
                 {
                     title: 'Financials',
-                    href: 'enterprise-resource-planning/financials',
+                    href: '/financials',
                     items: []
                 },
                 {
                     title: 'Procurement',
-                    href: 'enterprise-resource-planning/procurement',
+                    href: '/procurement',
                     items: []
                 },
                 {
                     title: 'Project Portfolio Management',
-                    href: 'enterprise-resource-planning/project-portfolio-management',
+                    href: '/project-portfolio-management',
                     items: []
                 }
             ]
@@ -73,27 +73,27 @@ const oracleAppsMenuItemsConfig: OracleAppsMenuItemsConfig = {
             items: [
                 {
                     title: 'Oracle Data Management Platform',
-                    href: 'oracle-cloud-cx/oracle-data-management-platform',
+                    href: '/oracle-data-management-platform',
                     items: []
                 },
                 {
                     title: 'Oracle Commerce Cloud',
-                    href: 'oracle-cloud-cx/oracle-commerce-cloud',
+                    href: '/oracle-commerce-cloud',
                     items: []
                 },
                 {
                     title: 'Oracle CPQ Cloud',
-                    href: 'oracle-cloud-cx/oracle-cpq-cloud',
+                    href: '/oracle-cpq-cloud',
                     items: []
                 },
                 {
                     title: 'Oracle Subscription Management Cloud',
-                    href: 'oracle-cloud-cx/oracle-subscription-management-cloud',
+                    href: '/oracle-subscription-management-cloud',
                     items: []
                 },
                 {
                     title: 'Oracle Marketing Cloud',
-                    href: 'oracle-cloud-cx/oracle-marketing-cloud',
+                    href: '/oracle-marketing-cloud',
                     items: []
                 }
             ]
@@ -103,7 +103,7 @@ const oracleAppsMenuItemsConfig: OracleAppsMenuItemsConfig = {
             items: [
                 {
                     title: 'Product Management Cloud',
-                    href: 'product-lifecycle-management-cloud/product-master-data-management',
+                    href: '/product-master-data-management',
                     items: []
                 },
 
@@ -114,17 +114,17 @@ const oracleAppsMenuItemsConfig: OracleAppsMenuItemsConfig = {
             items: [
                 {
                     title: 'Transportation Management Cloud',
-                    href: 'logistics/transportation-management-cloud',
+                    href: '/transportation-management-cloud',
                     items: []
                 },
                 {
                     title: 'Global Trade Management Cloud',
-                    href: 'logistics/global-trade-management-cloud',
+                    href: '/global-trade-management-cloud',
                     items: []
                 },
                 {
                     title: 'Warehouse Management Cloud',
-                    href: 'logistics/warehouse-management-cloud',
+                    href: '/warehouse-management-cloud',
                     items: []
                 }
             ]
@@ -134,17 +134,17 @@ const oracleAppsMenuItemsConfig: OracleAppsMenuItemsConfig = {
             items: [
                 {
                     title: 'Planning and Budgeting',
-                    href: 'enterprise-performance-management-cloud/planning-budgeting-cloud',
+                    href: '/planning-budgeting-cloud',
                     items: []
                 },
                 {
                     title: 'Tax Reporting',
-                    href: 'enterprise-performance-management-cloud/tax-reporting-cloud',
+                    href: '/tax-reporting-cloud',
                     items: []
                 },
                 {
                     title: 'Profitability And Cost Management',
-                    href: 'enterprise-performance-management-cloud/profitability-cost-management-cloud',
+                    href: '/profitability-cost-management-cloud',
                     items: []
                 }
             ]
@@ -154,7 +154,7 @@ const oracleAppsMenuItemsConfig: OracleAppsMenuItemsConfig = {
 
 export default function OracleAppsMenuContent() {
     return (
-        <div className="grid w-[800px] gap-3 p-4 md:w-[800px] md:grid-cols-3 lg:w-[1000px] ">
+        <div className="grid w-[800px] gap-3 p-4 md:w-[800px] md:grid-cols-3 lg:w-[1000px] z-50 ">
             {oracleAppsMenuItemsConfig.oracleAppsMenuItems.map((item, index) => (
                 <div key={index} className="flex flex-col">
                     <h3 className="text-lg font-bold">{item.title}</h3>

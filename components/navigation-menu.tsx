@@ -127,9 +127,6 @@ export function MainNavigation() {
                             <ListItem href="/company/about" title="About">
                                 Learn more about Oink.
                             </ListItem>
-                            <ListItem href="/company/careers" title="Careers">
-                                Join our team.
-                            </ListItem>
                             <ListItem href="/company/contact" title="Contact">
                                 Contact us.
                             </ListItem>
