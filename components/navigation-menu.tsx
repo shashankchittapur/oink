@@ -14,51 +14,15 @@ import {
     NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu"
 import OracleAppsMenuContent from "./oracle-applications-menu-content"
+import { industryDefinitions } from "@/config/industries"
 
-const components: { title: string; href: string; description: string }[] = [
-    {
-        title: "Automative",
-        href: "/industries/automative",
-        description:
-            "Automative industry solutions, powered by industry specific konwledge models.",
-    },
-    {
-        title: "Consumer Products",
-        href: "/industries/consumer-products",
-        description:
-            "Consumer products industry solutions, powered by industry specific konwledge models.",
-    },
-    {
-        title: "Energy & Resources",
-        href: "/industries/energy-resources",
-        description:
-            "Energy & resources industry solutions, powered by industry specific konwledge models.",
-    },
-    {
-        title: "Industrial Manufacturing",
-        href: "/industries/industrial-manufacturing",
-        description: "Industrial manufacturing industry solutions, powered by industry specific konwledge models.",
-    },
-    {
-        title: "Telecom",
-        href: "/industries/telecom",
-        description:
-            "Telecom industry solutions, powered by industry specific konwledge models.",
-    },
-    {
-        title: "Retail",
-        href: "/industries/retail",
-        description:
-            "Retail industry solutions, powered by industry specific konwledge models.",
-    },
-]
 
 export function MainNavigation() {
     return (
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger>Oracle Applications</NavigationMenuTrigger>
+                    <NavigationMenuTrigger>Offerings</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <OracleAppsMenuContent />
                     </NavigationMenuContent>
@@ -108,14 +72,10 @@ export function MainNavigation() {
                     <NavigationMenuTrigger>Industries</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                            {components.map((component) => (
-                                <ListItem
-                                    key={component.title}
-                                    title={component.title}
-                                    href={component.href}
-                                >
-                                    {component.description}
-                                </ListItem>
+                            {industryDefinitions.map((industryDefinition) => (
+                                <IndustryListItem
+                                    key={industryDefinition.title} title={industryDefinition.title}
+                                    href={industryDefinition.path} />
                             ))}
                         </ul>
                     </NavigationMenuContent>
@@ -137,7 +97,7 @@ export function MainNavigation() {
                     </NavigationMenuContent>
                 </NavigationMenuItem>
             </NavigationMenuList>
-        </NavigationMenu>
+        </NavigationMenu >
     )
 }
 
@@ -166,3 +126,18 @@ export const ListItem = React.forwardRef<
     )
 })
 ListItem.displayName = "ListItem"
+
+
+export function IndustryListItem({ title, href }: { title: string, href: string }) {
+
+    const path = `/industries/${href}`
+    return (
+
+        < ListItem
+            key={title}
+            title={title}
+            href={path}
+        >
+        </ListItem>
+    )
+}
