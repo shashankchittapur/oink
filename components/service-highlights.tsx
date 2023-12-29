@@ -17,9 +17,9 @@ export default function ServiceHighlights(
     config: ServiceHighlightsConfig
 ) {
     return (
-        <div className="flex gap-3 grid-row-1">
+        <div className="lg:flex gap-5 items-center justify-center sm:grid md:grid lg:grid-row-1 md:grid-rows-2 md:grid-cols-2 sm:grid-cols-1">
             {config.serviceHighlights.map((item, index) => (
-                <Card key={index} className="w-[200px] space-y-5">
+                <Card key={index} className="lg:w-[250px] lg:h-[250px]">
                     <CardHeader className="items-center justify-center">
                         <Image alt={item.title}
                             src={item.icon}

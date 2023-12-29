@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/navigation-menu"
 import OracleAppsMenuContent from "./oracle-applications-menu-content"
 import { industryDefinitions } from "@/config/industries"
+import { IT_SERVICES } from "@/config/it-services"
 
 
 export function MainNavigation() {
@@ -23,48 +24,20 @@ export function MainNavigation() {
             <NavigationMenuList>
                 <NavigationMenuItem>
                     <NavigationMenuTrigger>Offerings</NavigationMenuTrigger>
-                    <NavigationMenuContent>
+                    <NavigationMenuContent className="left-auto">
                         <OracleAppsMenuContent />
                     </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <NavigationMenuTrigger>Services</NavigationMenuTrigger>
                     <NavigationMenuContent>
-                        <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-
-                            <li className="row-span-5 flex flex-col items-center justify-center">
-                                <NavigationMenuLink asChild>
-                                    <Link
-                                        className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                                        href="/"
-                                    >
-                                        <div className="flex flex-col">
-                                            <div className="mb-2 mt-4 text-lg font-medium">
-                                                Oink Solutions
-                                            </div>
-                                            <p className="text-sm leading-tight text-muted-foreground">
-                                                Our solutions, powered by industry specific konwledge models.
-                                            </p>
-                                        </div>
-                                    </Link>
-                                </NavigationMenuLink>
-                            </li>
-
-                            <ListItem href="/services/consulting" title="Consulting">
-                                Consulting services for your business.
-                            </ListItem>
-                            <ListItem href="/services/cloud-solutions" title="Cloud Solutions">
-                                Cloud solutions to help you scale.
-                            </ListItem>
-                            <ListItem href="/services/enterprise-solutions" title="Enterprise Solutions">
-                                Enterprise solutions to help you scale.
-                            </ListItem>
-                            <ListItem href="/services/data-analytics" title="Data & Analytics">
-                                Managed services to help you scale.
-                            </ListItem>
-                            <ListItem href="/services/web-development" title="Web Development">
-                                Web development services to help you scale.
-                            </ListItem>
+                        <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                            {IT_SERVICES.map((industryDefinition) => (
+                                <Link href={industryDefinition.href} key={industryDefinition.title}>
+                                    <ListItem
+                                        key={industryDefinition.title} title={industryDefinition.title} />
+                                </Link>
+                            ))}
                         </ul>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
@@ -73,9 +46,11 @@ export function MainNavigation() {
                     <NavigationMenuContent>
                         <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                             {industryDefinitions.map((industryDefinition) => (
-                                <IndustryListItem
-                                    key={industryDefinition.title} title={industryDefinition.title}
-                                    href={industryDefinition.path} />
+                                <Link href={industryDefinition.href} key={industryDefinition.title}>
+                                    <ListItem
+                                        key={industryDefinition.title} title={industryDefinition.title}
+                                    />
+                                </Link>
                             ))}
                         </ul>
                     </NavigationMenuContent>
@@ -84,15 +59,21 @@ export function MainNavigation() {
                     <NavigationMenuTrigger>Company</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                            <ListItem href="/company/about" title="About">
-                                Learn more about Oink.
-                            </ListItem>
-                            <ListItem href="/company/contact" title="Contact">
-                                Contact us.
-                            </ListItem>
-                            <ListItem href="/company/press" title="Press">
-                                Press releases.
-                            </ListItem>
+                            <Link href="/company/about" >
+                                <ListItem title="About">
+                                    Learn more about Oink.
+                                </ListItem>
+                            </Link>
+                            <Link href="/company/contact" >
+                                <ListItem title="Contact">
+                                    Contact us.
+                                </ListItem>
+                            </Link>
+                            <Link href="/company/press" >
+                                <ListItem title="Press">
+                                    Press releases.
+                                </ListItem>
+                            </Link>
                         </ul>
                     </NavigationMenuContent>
                 </NavigationMenuItem>

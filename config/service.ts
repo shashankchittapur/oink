@@ -226,7 +226,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
         path: 'order-management-cloud',
         title: 'Order Management Cloud',
         description: 'MANAGE ORDERS WITH ACCURACY',
-        heroImage: '/images/services/hero/Order-Management-Cloud.jpeg',
+        heroImage: '/images/services/hero/Order-Management.jpeg',
         details: [
             'Oracle Order Management Cloud is a next-generation supply chain planning solution that can help you plan your supply chain with accuracy. This solution can help you plan your supply chain based on demand, supply, and inventory. Oracle Order Management Cloud can help you plan your supply chain based on demand, supply, and inventory. It can also help you plan your supply chain based on demand, supply, and inventory. It can also help you plan your supply chain based on demand, supply, and inventory.',
             'Oracle Order Management Cloud can help you plan your supply chain based on demand, supply, and inventory. It can also help you plan your supply chain based on demand, supply, and inventory.',

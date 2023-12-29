@@ -3,6 +3,7 @@ import { IndustryDefinition, OverViewEnum } from "@/types/industries";
 export const industryDefinitions: IndustryDefinition[] = [
     {
         path: 'hi-tech-and-semi-conductor',
+        href: '/industries/hi-tech-and-semi-conductor',
         title: 'Hi Tech And Semi Conductor',
         description: 'TRANSFORMING FUTURE WITH DIGITAL INNOVATION',
         heroImage: '/images/industries/hero/Semiconductor.jpg',
@@ -61,6 +62,7 @@ export const industryDefinitions: IndustryDefinition[] = [
     },
     {
         path: 'retail-consumer-industry',
+        href: '/industries/retail-consumer-industry',
         title: 'Retail & Consumer Industry',
         description: 'STREAMLINING OPERATIONS TO ACHIEVE GREATER EFFICIENCY',
         heroImage: '/images/industries/hero/Semiconductor.jpg',
@@ -119,6 +121,7 @@ export const industryDefinitions: IndustryDefinition[] = [
     },
     {
         path: 'trading-distibution',
+        href: '/industries/trading-distibution',
         title: 'Trading & Distibution',
         description: 'HELP TAKE BETTER DECISIONS WITH REAL INSIGHTS',
         heroImage: '/images/industries/hero/Trading-Distribution.jpeg',
@@ -172,6 +175,7 @@ export const industryDefinitions: IndustryDefinition[] = [
     },
     {
         path: 'industrial-manufacturing',
+        href: '/industries/industrial-manufacturing',
         title: 'Industrial Manufacturing',
         description: 'ALIGNING SUPPLY AND DEMAND MANAGEMENT',
         heroImage: '/images/industries/hero/Industrial-Manufacturing.jpeg',
@@ -225,6 +229,7 @@ export const industryDefinitions: IndustryDefinition[] = [
     },
     {
         path: 'life-science-and-healthcare',
+        href: '/industries/life-science-and-healthcare',
         title: 'Life Sciences and Healthcare',
         description: 'ALIGNING SUPPLY AND DEMAND MANAGEMENT',
         heroImage: '/images/industries/hero/healthcare.jpeg',

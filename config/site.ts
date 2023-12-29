@@ -1,6 +1,6 @@
 export const siteConfig = {
-    name: "Data Analytics Solibri",
-    url: "https://ui.shadcn.com",
+    name: "Oink Solutions",
+    url: "/",
     ogImage: "https://ui.shadcn.com/og.jpg",
     description:
         "Beautifully designed components built with Radix UI and Tailwind CSS.",

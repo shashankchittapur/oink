@@ -13,7 +13,7 @@ export default function IndustryBenifits({
         <div className="flex flex-col space-y-10">
             <h2 className="text-3xl font-bold text-start">Benifits</h2>
             <Separator className="w-20 h-1" />
-            <div className="flex flex-row space-x-10 items-center justify-center">
+            <div className="lg:flex lg:flex-row md:grid sm:grid grid-cols-1 space-x-10 items-center justify-center">
                 {industryBenifits.benifits.map((item, index) => (
                     <Card key={index} className="space-y-5 border-none">
                         <CardHeader className="items-center justify-center">

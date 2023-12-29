@@ -1,5 +1,6 @@
 export interface IndustryDefinition {
     path: string,
+    href: string,
     title: string,
     heroImage: string,
     description: string,

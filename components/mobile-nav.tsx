@@ -5,13 +5,14 @@ import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
 import { ViewVerticalIcon } from "@radix-ui/react-icons"
 
-import { docsConfig } from "@/config/docs"
+
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
 import { Button } from "@/components/ui/button"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import Image from "next/image"
 
 export function MobileNav() {
     const [open, setOpen] = React.useState(false)
@@ -33,47 +34,17 @@ export function MobileNav() {
                     className="flex items-center"
                     onOpenChange={setOpen}
                 >
-                    <Icons.logo className="mr-2 h-4 w-4" />
-                    <span className="font-bold">{siteConfig.name}</span>
+                    <div className="space-x-2 flex flex-row">
+                        <Image src="/oink-logo-dark.png" alt="Oink Solutions" width={32} height={32} />
+                        <span className="font-bold">{siteConfig.name}</span>
+                    </div>
                 </MobileLink>
                 <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
                     <div className="flex flex-col space-y-3">
-                        {docsConfig.mainNav?.map(
-                            (item: any) =>
-                                item.href && (
-                                    <MobileLink
-                                        key={item.href}
-                                        href={item.href}
-                                        onOpenChange={setOpen}
-                                    >
-                                        {item.title}
-                                    </MobileLink>
-                                )
-                        )}
+
                     </div>
                     <div className="flex flex-col space-y-2">
-                        {docsConfig.sidebarNav.map((item: any, index: number) => (
-                            <div key={index} className="flex flex-col space-y-3 pt-6">
-                                <h4 className="font-medium">{item.title}</h4>
-                                {item?.items?.length &&
-                                    item.items.map((item: any) => (
-                                        <React.Fragment key={item.href}>
-                                            {!item.disabled &&
-                                                (item.href ? (
-                                                    <MobileLink
-                                                        href={item.href}
-                                                        onOpenChange={setOpen}
-                                                        className="text-muted-foreground"
-                                                    >
-                                                        {item.title}
-                                                    </MobileLink>
-                                                ) : (
-                                                    item.title
-                                                ))}
-                                        </React.Fragment>
-                                    ))}
-                            </div>
-                        ))}
+
                     </div>
                 </ScrollArea>
             </SheetContent>
