@@ -5,14 +5,14 @@ import { NavigationMenuSub, NavigationMenuTrigger } from '@radix-ui/react-naviga
 import { ChevronRight, ChevronRightCircle } from 'lucide-react';
 import { it } from 'node:test';
 import { Separator } from './ui/separator';
-import { OfferingsMenuItemsConfig, oracleAppsMenuItemsConfig } from '@/config/app-services';
+import { OfferingsMenuItemsConfig, SAPAppsMenuItemsConfig, oracleAppsMenuItemsConfig } from '@/config/app-services';
 import Link from 'next/link';
 
 
 
 const appMenuItemsConfigMap: Map<string, OfferingsMenuItemsConfig> = new Map([
     ['Oracle-Apps', oracleAppsMenuItemsConfig],
-    ['SAP', oracleAppsMenuItemsConfig],
+    ['SAP', SAPAppsMenuItemsConfig],
 ]);
 
 export default function OracleAppsMenuContent() {

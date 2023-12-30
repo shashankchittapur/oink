@@ -20,7 +20,7 @@ const locations = [
         address: '# 203, Viswanath Towers, Dharamapeta, Kurnool, Andhra Pradesh, India - 518002.',
         coordinates: '34.052235, -118.243683',
         phoneNumber: '+91 8341091411',
-        image: '/images/locations/krnl.jpeg'
+        image: '/images/locations/kurnool.jpeg'
     },
     {
         city: 'Bangalore',

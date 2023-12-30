@@ -44,11 +44,11 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Implementations',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Integration and Development',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Managed Services',
@@ -150,11 +150,11 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Implementations',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Integration and Development',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Managed Services',
@@ -207,11 +207,11 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Implementations',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Integration and Development',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Managed Services',
@@ -264,11 +264,11 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Implementations',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Integration and Development',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Managed Services',
@@ -321,11 +321,11 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Procurement Contracts Cloud',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Oracle Purchasing Cloud',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Oracle Supplier Qualification Management Cloud',
@@ -337,7 +337,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Supplier Portal Cloud',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     }
                 ]
             }
@@ -386,11 +386,11 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Implementations',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Integration and Development',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Managed Services',
@@ -452,11 +452,11 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Implementations',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Integration and Development',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Managed Services',
@@ -517,11 +517,11 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Implementations',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Integration and Development',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Managed Services',
@@ -583,11 +583,11 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Implementations',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Integration and Development',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Managed Services',
@@ -648,11 +648,11 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Implementations',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Integration and Development',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Managed Services',
@@ -714,11 +714,11 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Enterprise Planning and Budgeting Cloud',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Oracle Financial Consolidation and Close Cloud',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Oracle Tax Reporting Cloud',
@@ -730,7 +730,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Account Reconciliation Cloud',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     }
                 ]
             }
@@ -788,11 +788,11 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Enterprise Taxation and Policy Management Cloud',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Oracle Enterprise Performance Reporting Cloud',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Oracle Account Reconciliation Cloud',
@@ -804,7 +804,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Enterprise Data Management Cloud',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     }
                 ]
             }
@@ -862,11 +862,11 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Profitability and Cost Management Cloud',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Oracle Enterprise Performance Reporting Cloud',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Oracle Account Reconciliation Cloud',
@@ -878,7 +878,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Enterprise Data Management Cloud',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     }
                 ]
             }
@@ -936,11 +936,11 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Implementations',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Integration and Development',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Managed Services',
@@ -1002,11 +1002,11 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Implementations',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Integration and Development',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Managed Services',
@@ -1068,7 +1068,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Procurement Contracts Cloud',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Oracle Supplier Qualification Management Cloud',
@@ -1080,7 +1080,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Supplier Portal Cloud',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     }
                 ]
             }
@@ -1138,7 +1138,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Project Management Cloud',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Oracle Project Resource Management Cloud',
@@ -1150,7 +1150,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Project Billing Cloud',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Oracle Project Analytics Cloud',
@@ -1212,7 +1212,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Transportation Operational Planning Cloud',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Oracle Transportation Collaboration Cloud',
@@ -1224,7 +1224,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Transportation Intelligence Cloud',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Oracle Fleet Management Cloud',
@@ -1287,7 +1287,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Global Trade Intelligence Cloud',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Oracle Global Trade Compliance Cloud',
@@ -1299,7 +1299,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Global Trade Management for Logistics Providers Cloud',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Oracle Global Trade Management for Financial Services Cloud',
@@ -1361,7 +1361,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Inventory Management Cloud',
-                        icon: '/images/services/offerings/implementations-1-1.jpg'
+                        icon: '/images/services/offerings/Implementations-1-1.jpg'
                     },
                     {
                         title: 'Oracle Order Management Cloud',
@@ -1373,7 +1373,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                     },
                     {
                         title: 'Oracle Manufacturing Cloud',
-                        icon: '/images/services/offerings/integration-and-development-1-1.jpg'
+                        icon: '/images/services/offerings/Integration-and-Development-1-1.jpg'
                     },
                     {
                         title: 'Oracle Procurement Cloud',

@@ -115,7 +115,7 @@ export const oracleAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
                 {
                     title: 'Procurement Cloud',
                     href: '/procurement-cloud',
-                    heroImage: '/images/services/hero/Procurement-hero.jpeg',
+                    heroImage: '/images/services/hero/procurement-hero.jpeg',
                     items: []
                 }
             ]
@@ -223,31 +223,31 @@ export const oracleAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
                 {
                     title: 'Oracle Data Management Platform',
                     href: '/oracle-data-management-platform',
-                    heroImage: '/images/services/hero/oracle-data-management-platform.png',
+                    heroImage: '/images/services/hero/Oracle-Data-Management-Platform.png',
                     items: []
                 },
                 {
                     title: 'Oracle Commerce Cloud',
                     href: '/oracle-commerce-cloud',
-                    heroImage: '/images/services/hero/oracle-commerce-cloud.png',
+                    heroImage: '/images/services/hero/Oracle-Commerce-Cloud.png',
                     items: []
                 },
                 {
                     title: 'Oracle CPQ Cloud',
                     href: '/oracle-cpq-cloud',
-                    heroImage: '/images/services/hero/oracle-cpq-cloud.png',
+                    heroImage: '/images/services/hero/Oracle-CPQ-Cloud.png',
                     items: []
                 },
                 {
                     title: 'Oracle Subscription Management Cloud',
                     href: '/oracle-subscription-management-cloud',
-                    heroImage: '/images/services/hero/oracle-subscription-management-cloud.png',
+                    heroImage: '/images/services/hero/Oracle-Subscription-Management-Cloud.png',
                     items: []
                 },
                 {
                     title: 'Oracle Marketing Cloud',
                     href: '/oracle-marketing-cloud',
-                    heroImage: '/images/services/hero/oracle-marketing-cloud.png',
+                    heroImage: '/images/services/hero/Oracle-Marketing-Cloud.png',
                     items: []
                 }
             ]
@@ -407,6 +407,48 @@ export const oracleAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
                     heroImage: '/images/services/hero/Oracle-Profitability-and-Cost-Management-Cloud.jpeg',
                     items: []
                 }
+            ]
+        }
+    ]
+}
+
+export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
+    menuItems: [
+        {
+            title: 'SAP ECC And Business Suite',
+            href: '/app-services/sap-ecc-and-business-suite',
+            path: 'sap-ecc-and-business-suite',
+            heroImage: '/images/appservices/hero/sap-ecc-and-business-suite.jpeg',
+            description: 'ACCELERATING PROCESSES TO BOOST PROFITABILITY',
+            details: {
+                title: 'SAP ECC And Business Suite',
+                information: [
+                    'Trinamix has been instrumental in assisting the customers in solving the most complex supply chain problems while adopting Oracle supply chain planning solutions in various industries and processes. We have converted the science of adopting best practices into art and have a proven track record of making implementation success a habit.',
+                    'Trinamix has been recognized by Oracle as a go-to partner in integrated business planning. Our customers have consistently won Supply Chain Excellence awards from Oracle in their transformative journey towards integrated business planning.',
+                    'Beat every challenge and accelerate your supply chain process with Oracle Supply Planning Solutions. Oracle Supply Planning Solutions allow users to Visualize Planning Problems, Investigate Root Causes and get Real-Time Feedback as you update or modify your plan. With streamlined supply chains, optimize your activities and leverage the best out of resources.',
+                ],
+                overview: {
+                    serviceHighlights: [
+                        {
+                            title: 'Broader Visibility',
+                            icon: '/images/appservices/icons/broader-visibility.png'
+                        },
+                        {
+                            title: 'Better Decision Making',
+                            icon: '/images/appservices/icons/better-decision-making.png'
+                        },
+                        {
+                            title: 'Faster Response',
+                            icon: '/images/appservices/icons/faster-response.png'
+                        },
+                        {
+                            'title': 'Easy To Adopt',
+                            icon: '/images/appservices/icons/easy-to-adopt.png'
+                        }
+                    ]
+                }
+            },
+            items: [
             ]
         }
     ]
