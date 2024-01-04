@@ -37,22 +37,22 @@ export default function ITServicePage({
 
     return (
         <Suspense fallback={<LoadingPage />}>
-            <div className="container mx-auto lg:space-y-20 pb-20 lg:pt-20 md:pt-10">
-                <div className="flex flex-col space-y-20">
-                    <div className="flex flex-col space-y-10 h-1/3 min-h-max">
-                        <Image src={service.heroImage}
-                            alt={service.title}
-                            width={0} height={0} sizes="100vw"
-                            style={{ width: '100%', height: '50%' }}
-                            className="z-0"
-                            placeholder="blur"
-                            blurDataURL={blurImageURL} />
+            <div className="flex flex-col space-y-20">
+                <div className="flex flex-col space-y-10 h-96">
+                    <Image src={service.heroImage}
+                        alt={service.title}
+                        width={0} height={0} sizes="100vw"
+                        style={{ width: '100%', height: '100%' }}
+                        className="z-0"
+                        placeholder="blur"
+                        blurDataURL={blurImageURL} />
 
-                        <div className="z-30 absolute lg:pt-36 md:pt-24 sm:pt-12  lg:space-y-5 md:space-y-4 sm:space-y-3 text-white pl-5">
-                            <h1 className="lg:text-6xl md:text-4xl font-bold">{service.title}</h1>
-                            <h3 className="lg:text-2xl font-bold">{service.description}</h3>
-                        </div>
+                    <div className="z-30 absolute lg:pt-36 md:pt-24 sm:pt-12  lg:space-y-5 md:space-y-4 sm:space-y-3 text-white pl-36">
+                        <h1 className="lg:text-6xl md:text-4xl font-bold">{service.title}</h1>
+                        <h3 className="lg:text-2xl font-bold">{service.description}</h3>
                     </div>
+                </div>
+                <div className="container mx-auto pb-20">
                     <div className="flex flex-row space-x-20">
                         <div className="flex flex-col space-y-5 w-1/2">
                             <h1 className="text-4xl font-bold">Overview</h1>
@@ -126,6 +126,6 @@ export default function ITServicePage({
                     </div>
                 </div>
             </div>
-        </Suspense>
+        </Suspense >
     )
 }

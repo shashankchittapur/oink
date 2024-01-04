@@ -334,5 +334,52 @@ export const IT_SERVICES: ITServiceDefinition[] = [
                     },
                 ]
         }
+    },
+    {
+        title: "Application Development",
+        path: "app-development",
+        href: "/it-services/app-development",
+        description: "DEVELOPING THE RIGHT APPLICATION FOR YOUR BUSINESS",
+        heroImage: "/images/it-services/hero/oracle-cloud-cx.png",
+        overview: {
+            image: "/images/it-services/overview/implementation-services.jpeg",
+            details:
+                [
+                    "Oink has a team of experienced and passionate developers who are always ready to take challenges and develop the best application for your business. We have a proven track record of delivering the best application development services to our clients across the globe. Our team of developers is well-versed with the latest technologies and trends that help them to develop the best application for your business.",
+                    "We have a team of developers who are experts in developing applications for both Android and iOS platforms. We develop applications that are compatible with all the devices and browsers. We have developed applications for various industries including healthcare, education, retail, and many more. We have a team of developers who are experts in developing applications for both Android and iOS platforms. We develop applications that are compatible with all the devices and browsers. We have developed applications for various industries including healthcare, education, retail, and many more.",
+
+                ],
+        },
+        services: {
+            description: "Our continuous focus on innovation and delivering what customers want differentiates our consulting services from others in the same ecosystem. Our portfolio of customer success stories consists of an entire gamut of processes including:",
+            services: {
+                serviceHighlights: [
+                    {
+                        title: "UI/UX Design",
+                        icon: "/images/it-services/service-icons/demand-planning.png",
+                    },
+                    {
+                        title: "Web Development",
+                        icon: "/images/it-services/service-icons/sales-operations-planning.png",
+                    },
+                    {
+                        title: "Mobile App Development",
+                        icon: "/images/it-services/service-icons/production-lifecycle-management.png",
+                    },
+                    {
+                        title: "E-Commerce Development",
+                        icon: "/images/it-services/service-icons/master-data-management.png",
+                    },
+                    {
+                        title: "Testing & QA",
+                        icon: "/images/it-services/service-icons/manufacturing.png",
+                    },
+                    {
+                        title: "Digital Marketing",
+                        icon: "/images/it-services/service-icons/supply-chain-planning.png",
+                    }
+                ]
+            }
+        },
     }
 ];

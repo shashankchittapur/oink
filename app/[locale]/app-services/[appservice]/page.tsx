@@ -42,21 +42,21 @@ export default function AppServicesPage(
     }
     return (
         <Suspense fallback={<LoadingPage />}>
-            <div className="container mx-auto pb-20">
-                <div className="flex flex-col space-y-10 pt-20 pb-20">
-                    <div className="flex flex-col space-y-10 h-1/3 min-h-max">
-                        <Image src={appService.heroImage ?? ''}
-                            alt="Demand Planning Cloud"
-                            width={0} height={0} sizes="100vw"
-                            style={{ width: '100%', height: '50%' }}
-                            className="z-0"
-                            placeholder="blur"
-                            blurDataURL={blurImageURL} />
-                        <div className="z-30 absolute lg:pt-12 lg:space-y-5  text-white pl-5">
-                            <h1 className="lg:text-6xl md:text-4xl sm:text-lg font-bold w-1/2">{appService.title}</h1>
-                            <h3 className="lg:text-2xl md:text-xl sm:text-sm font-bold">{appService.description}</h3>
-                        </div>
+            <div className="flex flex-col space-y-10 pb-20">
+                <div className="flex flex-col space-y-10 h-96">
+                    <Image src={appService.heroImage ?? ''}
+                        alt="Demand Planning Cloud"
+                        width={0} height={0} sizes="100vw"
+                        style={{ width: '100%', height: '100%' }}
+                        className="z-0"
+                        placeholder="blur"
+                        blurDataURL={blurImageURL} />
+                    <div className="z-30 absolute pl-36 lg:space-y-5  text-white">
+                        <h1 className="lg:text-6xl md:text-4xl sm:text-lg font-bold w-1/2">{appService.title}</h1>
+                        <h3 className="lg:text-2xl md:text-xl sm:text-sm font-bold">{appService.description}</h3>
                     </div>
+                </div>
+                <div className="container mx-auto pb-20 space-y-10">
                     <div className="flex flex-col space-y-10">
                         {
                             appService.details !== undefined ? (
