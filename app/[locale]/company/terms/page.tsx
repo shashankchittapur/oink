@@ -1,8 +1,6 @@
 import ComingSoonPage from "@/components/coming-soon";
 
-
-export default async function CareersPage() {
-
+export default function TermsPage() {
     return (
         <ComingSoonPage />
     )
