@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 
 const appMenuItemsConfigMap: Map<string, OfferingsMenuItemsConfig> = new Map([
-    ['Oracle-Apps', oracleAppsMenuItemsConfig],
+    ['Oracle Applications', oracleAppsMenuItemsConfig],
     ['SAP', SAPAppsMenuItemsConfig],
 ]);
 
