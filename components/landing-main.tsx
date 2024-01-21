@@ -17,10 +17,10 @@ export default function LandingMainPage() {
             </div>
             <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
                 <div className="text-center">
-                    <h1 className="text-9xl font-bold tracking-tight sm:text-6xl bg-gradient-to-r from-cyan-400 to-pink-600 bg-clip-text text-transparent">
+                    <h1 className="text-4xl font-bold tracking-tight sm:text-8xl bg-gradient-to-r from-cyan-400 to-pink-600 bg-clip-text text-transparent">
                         Oink Solutions
                     </h1>
-                    <h2 className="mt-6 text-2xl leading-8">
+                    <h2 className="mt-6 text-lg sm:text-2xl leading-8">
                         In a world of increasing complexity, we help you to simplify your business processes.
                     </h2>
                 </div>

@@ -7,7 +7,7 @@ export default function MissionVision() {
         <div className="min-h-screen">
             <div className='flex flex-col pl-36 mx-auto'>
                 <div className="flex lg:flex-row  sm:flex-col space-x-10 p-5">
-                    <div className="flex flex-col space-y-5">
+                    <div className="flex flex-col space-y-5 w-1/4">
                         <div className="w-full">
                             <Image
                                 src="/images/mission.jpeg"
@@ -43,7 +43,7 @@ export default function MissionVision() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col space-y-5 mx-auto">
+                    <div className="flex flex-col space-y-5 mx-auto w-1/4 col-span-2 items-center justify-center">
                         <div className="w-full">
                             <Image
                                 src="/images/vision.jpeg"

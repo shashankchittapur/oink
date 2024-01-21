@@ -3,7 +3,7 @@ import { Achievement } from "@/types/achievement";
 
 export const achievements: Achievement[] = [
     {
-        title: "50+",
+        title: "10+",
         description: "Family",
         image: "/images/achievements/family.png"
     },
@@ -13,8 +13,8 @@ export const achievements: Achievement[] = [
         image: "/images/achievements/years.png"
     },
     {
-        title: "75+",
-        description: "Channel & Institutional Partners",
+        title: "10+",
+        description: "Clients",
         image: "/images/achievements/partners.png"
     },
     {
@@ -23,7 +23,7 @@ export const achievements: Achievement[] = [
         image: "/images/achievements/verticals.png"
     },
     {
-        title: "400%",
+        title: "100%",
         description: "Yoy Growth",
         image: "/images/achievements/growth.png"
     },
