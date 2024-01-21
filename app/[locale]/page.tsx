@@ -5,6 +5,7 @@ import Partners from '@/components/partners'
 import { Separator } from '@/components/ui/separator'
 import MissionVision from '@/components/mission-vision'
 import CompanyFeaturesMarquee from '@/components/company-features-marquee'
+import OurAchievements from '@/components/our-achievements'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <LandingMainPage />
       <MissionVision />
       <CompanyFeaturesMarquee />
+      <OurAchievements />
       <Partners />
     </main>
   )

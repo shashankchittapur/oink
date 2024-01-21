@@ -1,0 +1,46 @@
+import { Achievement } from "@/types/achievement";
+
+
+export const achievements: Achievement[] = [
+    {
+        title: "50+",
+        description: "Family",
+        image: "/images/achievements/family.png"
+    },
+    {
+        title: "3 X 4",
+        description: "Years and Locations",
+        image: "/images/achievements/years.png"
+    },
+    {
+        title: "75+",
+        description: "Channel & Institutional Partners",
+        image: "/images/achievements/partners.png"
+    },
+    {
+        title: "5",
+        description: "Verticals",
+        image: "/images/achievements/verticals.png"
+    },
+    {
+        title: "400%",
+        description: "Yoy Growth",
+        image: "/images/achievements/growth.png"
+    },
+    {
+        title: "1K+",
+        description: "LinkedIn Followers",
+        image: "/images/achievements/linkedin.png"
+    },
+    {
+        title: "4.9",
+        description: "Google Rating",
+        image: "/images/achievements/ratings.png"
+    },
+    {
+        title: "4.9",
+        description: "Glassdoor Rating",
+        image: "/images/achievements/ratings.png"
+    }
+
+]
