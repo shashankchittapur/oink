@@ -65,7 +65,7 @@ export const industryDefinitions: IndustryDefinition[] = [
         href: '/industries/retail-consumer-industry',
         title: 'Retail & Consumer Industry',
         description: 'STREAMLINING OPERATIONS TO ACHIEVE GREATER EFFICIENCY',
-        heroImage: '/images/industries/hero/Semiconductor.jpg',
+        heroImage: '/images/industries/hero/Retail-Industry.jpeg',
         overview: {
             details: [
                 "According to Gartner report, “2020 Gartner Supply Chain Top 25: Retail” published on August 7 2020 by Thomas O’Connor et al, “Gartner’s annual Future of Supply Chain Survey shows that, coming into 2020, retailers were rapidly shifting their view of the role that supply chain plays in business. From 2018 to 2019, we’ve seen the percentage of retailers indicating that supply chain is understood as an equally important part of business success as sales and marketing or product development increase from 43% to 55% — and this was before COVID-19. During the pandemic, senior leadership at businesses in Gartner’s retail Top 10 and Masters lists have emphasized the critical role of supply chain.“",
@@ -235,7 +235,7 @@ export const industryDefinitions: IndustryDefinition[] = [
         heroImage: '/images/industries/hero/healthcare.jpeg',
         overview: {
             details: [
-                "In today’s evolving business landscape, life sciences organizations must deliver fast responses, provide high-quality products, and improve their dynamic competencies. Trinamix helps customers worldwide uncover their potential and drive progress through our deep understanding of the life sciences ecosystem—from pharma, biotech, medical devices, clinical trials, and more. We leverage an array of solutions built on top of Oracle’s cloud-based technologies, helping life sciences organizations overcome several challenges. With modern solution offerings, we ensure faster time-to-value for new treatments and devices, unify data from clinical trials, streamline and automate safety case management, and strengthen business operations.",
+                "In today’s evolving business landscape, life sciences organizations must deliver fast responses, provide high-quality products, and improve their dynamic competencies. Oink helps customers worldwide uncover their potential and drive progress through our deep understanding of the life sciences ecosystem—from pharma, biotech, medical devices, clinical trials, and more. We leverage an array of solutions built on top of Oracle’s cloud-based technologies, helping life sciences organizations overcome several challenges. With modern solution offerings, we ensure faster time-to-value for new treatments and devices, unify data from clinical trials, streamline and automate safety case management, and strengthen business operations.",
                 "Life sciences organizations are facing numerous challenges, such as rising quality service expectations, supply chain directly linked to monetization, and dispersed market segments with different pricing structures."
             ],
             overviewType: OverViewEnum.TABLE_VIEW,

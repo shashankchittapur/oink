@@ -735,7 +735,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                 ]
             }
         },
-        whyChooseUs: 'Oink is an Oracle platinum Partner and Oracle Cloud Standard Partner that has expertise in PBCS solution. We have built a good reputation in the market for completing our projects on time that too in a cost-effective manner. Whether, it is about consulting, training, support, strategic assessments, optimization, publishing or any other thing- we deliver perfection in our services in record time. Oink is among the few noted implementation partners who have proficiency in the implementing end-to-end Oracle ERP cloud that includes Oracle Fusion Financials Cloud and SCM Cloud. Our experienced pool of financial consultants help us in implementing the right solution in a hassle-free manner. Further, Our Fusion Cloud practice is working closely with Oracle to deliver world-class solutions to our customers.'
+        whyChooseUs: 'Oink has expertise in PBCS solution. We have built a good reputation in the market for completing our projects on time that too in a cost-effective manner. Whether, it is about consulting, training, support, strategic assessments, optimization, publishing or any other thing- we deliver perfection in our services in record time. Oink is among the few noted implementation partners who have proficiency in the implementing end-to-end Oracle ERP cloud that includes Oracle Fusion Financials Cloud and SCM Cloud. Our experienced pool of financial consultants help us in implementing the right solution in a hassle-free manner. Further, Our Fusion Cloud practice is working closely with Oracle to deliver world-class solutions to our customers.'
     },
     {
         path: 'tax-reporting-cloud',
@@ -809,7 +809,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                 ]
             }
         },
-        whyChooseUs: 'Oink is an Oracle platinum Partner and Oracle Cloud Standard Partner that has expertise in PBCS solution. We have built a good reputation in the market for completing our projects on time that too in a cost-effective manner. Whether, it is about consulting, training, support, strategic assessments, optimization, publishing or any other thing- we deliver perfection in our services in record time. Oink is among the few noted implementation partners who have proficiency in the implementing end-to-end Oracle ERP cloud that includes Oracle Fusion Financials Cloud and SCM Cloud. Our experienced pool of financial consultants help us in implementing the right solution in a hassle-free manner. Further, Our Fusion Cloud practice is working closely with Oracle to deliver world-class solutions to our customers.'
+        whyChooseUs: 'Oink has expertise in PBCS solution. We have built a good reputation in the market for completing our projects on time that too in a cost-effective manner. Whether, it is about consulting, training, support, strategic assessments, optimization, publishing or any other thing- we deliver perfection in our services in record time. Oink is among the few noted implementation partners who have proficiency in the implementing end-to-end Oracle ERP cloud that includes Oracle Fusion Financials Cloud and SCM Cloud. Our experienced pool of financial consultants help us in implementing the right solution in a hassle-free manner. Further, Our Fusion Cloud practice is working closely with Oracle to deliver world-class solutions to our customers.'
     },
     {
         path: 'profitability-cost-management-cloud',
@@ -883,7 +883,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
                 ]
             }
         },
-        whyChooseUs: 'Oink is an Oracle platinum Partner and Oracle Cloud Standard Partner that has expertise in PBCS solution. We have built a good reputation in the market for completing our projects on time that too in a cost-effective manner. Whether, it is about consulting, training, support, strategic assessments, optimization, publishing or any other thing- we deliver perfection in our services in record time. Oink is among the few noted implementation partners who have proficiency in the implementing end-to-end Oracle ERP cloud that includes Oracle Fusion Financials Cloud and SCM Cloud. Our experienced pool of financial consultants help us in implementing the right solution in a hassle-free manner. Further, Our Fusion Cloud practice is working closely with Oracle to deliver world-class solutions to our customers.'
+        whyChooseUs: 'Oink has expertise in PBCS solution. We have built a good reputation in the market for completing our projects on time that too in a cost-effective manner. Whether, it is about consulting, training, support, strategic assessments, optimization, publishing or any other thing- we deliver perfection in our services in record time. Oink is among the few noted implementation partners who have proficiency in the implementing end-to-end Oracle ERP cloud that includes Oracle Fusion Financials Cloud and SCM Cloud. Our experienced pool of financial consultants help us in implementing the right solution in a hassle-free manner. Further, Our Fusion Cloud practice is working closely with Oracle to deliver world-class solutions to our customers.'
     },
     {
         path: 'product-master-data-management',
@@ -1095,7 +1095,7 @@ export const serviceDefinitions: ServiceDefinition[] = [
         details: [
             'Oracle Project Portfolio Management Cloud is a next-generation supply chain planning solution that can help you plan your supply chain with accuracy. This solution can help you plan your supply chain based on demand, supply, and inventory. Oracle Project Portfolio Management Cloud can help you plan your supply chain based on demand, supply, and inventory. It can also help you plan your supply chain based on demand, supply, and inventory. It can also help you plan your supply chain based on demand, supply, and inventory.',
             'Oracle Project Portfolio Management Cloud can help you plan your supply chain based on demand, supply, and inventory. It can also help you plan your supply chain based on demand, supply, and inventory.',
-            'Oink Solutions has helped numerous customers adopt Oracle Project Portfolio Management Cloud considering industry best practices. Oink has also helped existing Oracle Demantra customers migrate to Oracle Project Portfolio Management Cloud.'
+            'Oink Solutions has helped numerous customers adopt Oracle Project Portfolio Management Cloud considering industry best practices.'
         ],
         serviceHighlightsConfig: {
             serviceHighlights: [

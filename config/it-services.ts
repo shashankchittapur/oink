@@ -147,7 +147,7 @@ export const IT_SERVICES: ITServiceDefinition[] = [
             details:
                 [
                     "Oink uses best of the technologies to implement cutting-edge products/services to solve today’s business problems. We have implemented over 70 products/services across the different business verticals covering diverse geographies across the globe. From a small organization to a well-established MNC, we catered companies of all size and satisfy them with their unique technological demands. Our nimble approach and flexibility give enterprises that leading-edge to implement state-of-the-art business processes using software applications.",
-                    "Being an Oracle Platinum partner organization, Trinamix consultants are known for their in-depth business process and technology knowledge. We leverage technology whether on-premises implementation (ERP implementation), on cloud implementation or on the hybrid model to enable a seamless business process for our client. We ensure that application implemented for our client is used by all end users by ensuring our unique “user adoption focus” from day one by involving them in the project life cycle of application implementation.",
+                    "Being an organization, Oink consultants are known for their in-depth business process and technology knowledge. We leverage technology whether on-premises implementation (ERP implementation), on cloud implementation or on the hybrid model to enable a seamless business process for our client. We ensure that application implemented for our client is used by all end users by ensuring our unique “user adoption focus” from day one by involving them in the project life cycle of application implementation.",
                 ],
         },
         services: {
@@ -274,8 +274,8 @@ export const IT_SERVICES: ITServiceDefinition[] = [
             image: "/images/it-services/overview/managed-services.jpeg",
             details:
                 [
-                    "Oracle’s enterprise management tools are deployed, integrated and effortlessly migrated, which are supported by Trinamix. Our IT Service Desk supports incidents and service requests as well as our flexible solutions that allow organizations to easily automate their existing service desk or start new ones.",
-                    "Trinamix provides help for all the 3 main stages of support to organization i.e Planning, Implementing and Managing.",
+                    "Oracle’s enterprise management tools are deployed, integrated and effortlessly migrated, which are supported by Oink. Our IT Service Desk supports incidents and service requests as well as our flexible solutions that allow organizations to easily automate their existing service desk or start new ones.",
+                    "Oink provides help for all the 3 main stages of support to organization i.e Planning, Implementing and Managing.",
                     "Plan – Evaluation of current environment, selecting best technology, capacity audits, security audits, planning of server upgradation and cloud migration is done rigorously.",
                     "Implement -Configuring and upgrading on-site and cloud solution updated technologies, lifting and shifting Oracle EBS solution to cloud.",
                     "Manage – 24/7 Monitoring, analysis of root causes, performance tuning & recovery of disasters.",

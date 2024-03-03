@@ -10,7 +10,7 @@ export default function AboutUsMainSection() {
                     <h1 className="text-9xl font-bold tracking-tight sm:text-6xl bg-gradient-to-r from-cyan-400 to-pink-600 bg-clip-text text-transparent">
                         We love creators
                     </h1>
-                    <h2 className="mt-6 text-lg leading-8 text-gray-400">
+                    <h2 className="mt-6 text-lg leading-8 dark:text-gray-400 text-gray-800">
                         We are a team of passionate people whose goal is to improve everyone&apos;s life through disruptive products. We build great products to solve your business problems.
                     </h2>
                 </div>
@@ -32,7 +32,7 @@ export default function AboutUsMainSection() {
                     <div className="flex flex-row space-x-5 w-1/4 ">
                         <Separator orientation="vertical" />
                         <div className="flex  flex-col space-y-5 pl-3 pr-16">
-                            <h1 className="text-3xl text-white font-bold">2020</h1>
+                            <h1 className="text-3xl font-bold">2020</h1>
                             <p className="text-md text-gray-400">Business was founded</p>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ export default function AboutUsMainSection() {
                     <div className="flex flex-row space-x-5  w-1/4">
                         <Separator orientation="vertical" />
                         <div className="flex  flex-col space-y-5 pl-3 pr-16">
-                            <h1 className="text-3xl  text-white font-bold">50+</h1>
+                            <h1 className="text-3xl font-bold">10+</h1>
                             <p className="text-md text-gray-400">People on team</p>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ export default function AboutUsMainSection() {
                     <div className="flex flex-row space-x-5  w-1/4">
                         <Separator orientation="vertical" />
                         <div className="flex flex-1 flex-col space-y-5 pl-3 pr-16">
-                            <h1 className="text-3xl  text-white font-bold">10+</h1>
+                            <h1 className="text-3xl font-bold">10+</h1>
                             <p className="text-md text-gray-400">Clients</p>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ export default function AboutUsMainSection() {
                     <div className="flex flex-1 flex-row space-x-5 ">
                         <Separator orientation="vertical" />
                         <div className="flex flex-1 flex-col space-y-5 pl-3 pr-16">
-                            <h1 className="text-3xl  text-white font-bold"><span></span>$70M</h1>
+                            <h1 className="text-3xl font-bold"><span></span>₹10M</h1>
                             <p className="text-md text-gray-400">Revenue</p>
                         </div>
                     </div>

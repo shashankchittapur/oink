@@ -22,7 +22,7 @@ export default function MissionVision() {
                      bg-transparent text-transparent outline-transparent outline-8 border border-pink-500">
                             <div className="flex flex-col mx-auto space-y-3 text-start pl-10 py-10">
                                 <h1 className="text-xl  font-extrabold tracking-tight sm:text-3xl">
-                                    50 +
+                                    10 +
                                 </h1>
                                 <p className="text-xl">
                                     Clients
@@ -33,7 +33,7 @@ export default function MissionVision() {
                      bg-transparent text-transparent outline-transparent outline-8 border border-pink-500">
                             <div className="flex flex-col mx-auto space-y-3 text-start pl-10 py-10">
                                 <h1 className="text-xl  font-extrabold tracking-tight sm:text-3xl">
-                                    98 %
+                                    99 %
                                 </h1>
                                 <div className="flex flex-wrap">
                                     <p className="text-xl w-3/4">

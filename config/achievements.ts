@@ -8,7 +8,7 @@ export const achievements: Achievement[] = [
         image: "/images/achievements/family.png"
     },
     {
-        title: "3 X 4",
+        title: "2 X 3",
         description: "Years and Locations",
         image: "/images/achievements/years.png"
     },
@@ -24,7 +24,7 @@ export const achievements: Achievement[] = [
     },
     {
         title: "100%",
-        description: "Yoy Growth",
+        description: "YoY Growth",
         image: "/images/achievements/growth.png"
     },
     {

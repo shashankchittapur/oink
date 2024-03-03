@@ -10,6 +10,15 @@ export default function Partners() {
                         <div className='w-[200px] h-[200px]'>
                             <Image
                                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                                src="/images/partners/criticalriver-logo.png"
+                                alt="Critical River"
+                                width={158}
+                                height={48}
+                            />
+                        </div>
+                        <div className='w-[200px] h-[200px]'>
+                            <Image
+                                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                                 src="/images/partners/rapidflow-logo.png"
                                 alt="RapidFlow"
                                 width={0}
@@ -29,15 +38,7 @@ export default function Partners() {
                                 style={{ height: '100%', width: '100%' }}
                             />
                         </div>
-                        <div className='w-[200px] h-[200px]'>
-                            <Image
-                                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                                src="/images/partners/criticalriver-logo.png"
-                                alt="Critical River"
-                                width={158}
-                                height={48}
-                            />
-                        </div>
+
                     </div>
                 </div>
 

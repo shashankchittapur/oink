@@ -18,7 +18,6 @@ export const oracleAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
                 title: 'Supply Chain Planning Cloud Solutions',
                 information: [
                     'Oink has been instrumental in assisting the customers in solving the most complex supply chain problems while adopting Oracle supply chain planning solutions in various industries and processes. We have converted the science of adopting best practices into art and have a proven track record of making implementation success a habit.',
-                    'Oink has been recognized by Oracle as a go-to partner in integrated business planning. Our customers have consistently won Supply Chain Excellence awards from Oracle in their transformative journey towards integrated business planning.',
                     'Beat every challenge and accelerate your supply chain process with Oracle Supply Planning Solutions. Oracle Supply Planning Solutions allow users to Visualize Planning Problems, Investigate Root Causes and get Real-Time Feedback as you update or modify your plan. With streamlined supply chains, optimize your activities and leverage the best out of resources.',
                 ],
                 overview: {
@@ -42,7 +41,7 @@ export const oracleAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
                     ]
                 }
             },
-            whyChooseUs: 'Oink is an Oracle Platinum Partner that has assisted many prominent enterprises to make a successful transition to Oracle Cloud. We have the required expertise and skilled manpower that can help you in creating a flexible, adaptable, and integrated supply chain operation with the power of Oracle Cloud. If you want to overhaul your supply chain process, bring products to market faster, and enhance your customer satisfaction rate, then come to us. Oink can help you meet these business objectives in a hassle-free manner.',
+            whyChooseUs: 'Oink has assisted many prominent enterprises to make a successful transition to Oracle Cloud. We have the required expertise and skilled manpower that can help you in creating a flexible, adaptable, and integrated supply chain operation with the power of Oracle Cloud. If you want to overhaul your supply chain process, bring products to market faster, and enhance your customer satisfaction rate, then come to us. Oink can help you meet these business objectives in a hassle-free manner.',
             items: [
                 {
                     title: 'Demand Planning Cloud',
@@ -98,7 +97,7 @@ export const oracleAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
                     ]
                 }
             },
-            whyChooseUs: 'Oink is an Oracle Platinum Partner that has assisted many prominent enterprises to make a successful transition to Oracle Cloud. We have the required expertise and skilled manpower that can help you in creating a flexible, adaptable, and integrated supply chain operation with the power of Oracle Cloud. If you want to overhaul your supply chain process, bring products to market faster, and enhance your customer satisfaction rate, then come to us. Oink can help you meet these business objectives in a hassle-free manner.',
+            whyChooseUs: 'Oink has assisted many prominent enterprises to make a successful transition to Oracle Cloud. We have the required expertise and skilled manpower that can help you in creating a flexible, adaptable, and integrated supply chain operation with the power of Oracle Cloud. If you want to overhaul your supply chain process, bring products to market faster, and enhance your customer satisfaction rate, then come to us. Oink can help you meet these business objectives in a hassle-free manner.',
             items: [
                 {
                     title: 'Inventory Management Cloud',
@@ -475,7 +474,7 @@ export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
                     items: []
                 },
             ],
-            whyChooseUs: 'Oink is an SAP Gold Partner and a leading provider of SAP services. We have a rich experience which cuts across various horizontals and verticals of Industry. We are constantly evolving and scaling new horizons. In our pursuit to excellence, now we have extended our capabilities from planning to execution to orchestrate a seamless business process for enterprises.',
+            whyChooseUs: 'Oink is a leading provider of SAP services. We have a rich experience which cuts across various horizontals and verticals of Industry. We are constantly evolving and scaling new horizons. In our pursuit to excellence, now we have extended our capabilities from planning to execution to orchestrate a seamless business process for enterprises.',
         },
         {
             title: 'SAP S/4HANA',
@@ -516,7 +515,7 @@ export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
                     ]
                 }
             },
-            whyChooseUs: 'Oink is an SAP Gold Partner and a leading provider of SAP services. We have a rich experience which cuts across various horizontals and verticals of Industry. We are constantly evolving and scaling new horizons. In our pursuit to excellence, now we have extended our capabilities from planning to execution to orchestrate a seamless business process for enterprises.',
+            whyChooseUs: 'Oink is a leading provider of SAP services. We have a rich experience which cuts across various horizontals and verticals of Industry. We are constantly evolving and scaling new horizons. In our pursuit to excellence, now we have extended our capabilities from planning to execution to orchestrate a seamless business process for enterprises.',
             items: [
             ],
         },
@@ -561,7 +560,7 @@ export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
                     ]
                 }
             },
-            whyChooseUs: 'Oink is an SAP Gold Partner and a leading provider of SAP services. We have a rich experience which cuts across various horizontals and verticals of Industry. We are constantly evolving and scaling new horizons. In our pursuit to excellence, now we have extended our capabilities from planning to execution to orchestrate a seamless business process for enterprises.',
+            whyChooseUs: 'Oink is a leading provider of SAP services. We have a rich experience which cuts across various horizontals and verticals of Industry. We are constantly evolving and scaling new horizons. In our pursuit to excellence, now we have extended our capabilities from planning to execution to orchestrate a seamless business process for enterprises.',
             items: [
                 {
                     title: 'SAP HANA Database',
