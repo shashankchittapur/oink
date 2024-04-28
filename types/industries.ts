@@ -6,9 +6,9 @@ export interface IndustryDefinition {
     description: string,
     overview: Overview,
     industryBenifits: IndustryBenifits,
-    //industryHighlightsConfig: IndustryHighlightsConfig,
-    //industryOfferingsProps: IndustryOfferingsProps,
-    //whyChooseUs: string,
+    industryOfferings: IndustryOfferingsProps,
+    industryFocusAreas: IndustryFocusAreasConfig,
+
 }
 
 export interface Overview {
@@ -41,8 +41,11 @@ export interface IndustryHighlight {
     icon: string,
 }
 
+export interface IndustryFocusAreasConfig {
+    focusAreas: IndustryFocusArea[],
+}
+
 export interface IndustryOfferingsProps {
-    title: string,
     offerings: IndustryOffering[],
 }
 
@@ -51,3 +54,5 @@ export interface IndustryOffering {
     description: string,
     icon: string,
 }
+
+export interface IndustryFocusArea extends IndustryOffering { }

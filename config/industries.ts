@@ -1,10 +1,12 @@
 import { IndustryDefinition, OverViewEnum } from "@/types/industries";
+import { describe } from "node:test";
+import { title } from "process";
 
 export const industryDefinitions: IndustryDefinition[] = [
     {
         path: 'hi-tech-and-semi-conductor',
         href: '/industries/hi-tech-and-semi-conductor',
-        title: 'Hi Tech And Semi Conductor',
+        title: 'Hi Tech and Semi Conductor',
         description: 'TRANSFORMING FUTURE WITH DIGITAL INNOVATION',
         heroImage: '/images/industries/hero/Semiconductor.jpg',
         overview: {
@@ -59,6 +61,70 @@ export const industryDefinitions: IndustryDefinition[] = [
                 }
             ]
         },
+        industryFocusAreas: {
+            focusAreas: [
+                {
+                    title: 'Connected Operations',
+                    description: 'Connected modern experience to deliver exceptional CX, connected engineering to accelerate ROI, connected insights and Data 360 to improve efficiency and decisions, and Connected Edge and cloud to simplify complexities.',
+                    icon: '/images/industries/hi-tech-and-semi-conductor/focus-areas/Connected-Operations.jpeg',
+                },
+                {
+                    title: 'Digital supply chain',
+                    description: 'Real-time and granular supply chain visibility for better customer experiences. Predict demand and optimize sourcing and procurement to improve your supply chain resiliency against adverse events.',
+                    icon: '/images/industries/hi-tech-and-semi-conductor/focus-areas/Digital-Supply-Chain.jpeg',
+                },
+                {
+                    title: 'Servitization',
+                    description: 'Accelerate your servitization journey by identifying the right products and markets, defining the GTM strategy with partner and customer segmentations, measuring KPIs, and identifying upsell/cross-sell opportunities through our recommendation engine.',
+                    icon: '/images/industries/hi-tech-and-semi-conductor/focus-areas/Servitization.jpeg',
+                },
+                {
+                    title: 'Modern experience to engineering',
+                    description: 'Cloud-native, full-stack services help enterprises design, create, and maintain their cloud and infrastructure, reduce time-to-market and cost, and improve innovation and scale.',
+                    icon: '/images/industries/hi-tech-and-semi-conductor/focus-areas/Modern-Experience-to-Engineering.jpeg'
+                }
+            ]
+        },
+        industryOfferings: {
+            offerings: [
+                {
+                    title: 'Oracle',
+                    description: 'A complete suite of end to end solutions including advisory services, implementations, migrations, rollouts and AMS.',
+                    icon: '/images/industries/offerings/hi-tech-and-semi-conductor/oracle.png'
+                },
+                {
+                    title: 'SAP',
+                    description: 'SAP certified life sciences solution which address the challenges and business needs of the life sciences industry.',
+                    icon: '/images/industries/hi-tech-and-semi-conductor/offerings/SAP.png'
+                },
+                {
+                    title: 'Digital customer experience',
+                    description: 'Digital customer experience solutions that helps you translate your digital marketing strategies and drive superior customer experience',
+                    icon: '/images/industries/hi-tech-and-semi-conductor/offerings/Digital-Customer-Experience.png'
+                },
+                {
+                    title: 'Adobe',
+                    description: 'Adobe expertise that shortens your value realization cycle, improves customer conversion, acquisition, engagement and retention',
+                    icon: '/images/industries/hi-tech-and-semi-conductor/offerings/Adobe.png'
+                },
+                {
+                    title: 'Salesforce',
+                    description: 'Salesforce solutions provide end to and innovative digital solutions to modernise your legacy applications',
+                    icon: '/images/industries/hi-tech-and-semi-conductor/offerings/Salesforce.png'
+                },
+                {
+                    title: 'Application transformation',
+                    description: 'Smart ADM that provides application modernisation, cloud applications, product centric development, support and maintenance.',
+                    icon: '/images/industries/hi-tech-and-semi-conductor/offerings/Application-Transformation.png'
+                },
+                {
+                    title: 'Digital foundation services',
+                    description: 'Solutions for a sound digital foundation that is agile, collaborative and scalable.',
+                    icon: '/images/industries/hi-tech-and-semi-conductor/offerings/Digital-Foundation-Services.png'
+                }
+
+            ]
+        }
     },
     {
         path: 'retail-consumer-industry',
@@ -118,6 +184,65 @@ export const industryDefinitions: IndustryDefinition[] = [
                 }
             ]
         },
+        industryFocusAreas: {
+            focusAreas: [
+                {
+                    title: 'Digital Strategy and Execution',
+                    description: 'With our experience, create complete digital transformation plans, create cloud-native full-stack apps, update outdated technology stacks, and automate corporate procedures to boost productivity and drive expansion.',
+                    icon: '/images/industries/retail-consumer-industry/focus-areas/Digital-Strategy-and-Execution.jpeg'
+                },
+                {
+                    title: 'Elevate Customer Experience',
+                    description: 'Through omnichannel integration, personalisation, in-store experiences, user-friendly websites, and mobile apps, we contribute to the creation of distinctive shopping experiences.',
+                    icon: '/images/industries/retail-consumer-industry/focus-areas/Elevate-Customer-Experience.jpeg'
+                },
+                {
+                    title: 'Package Implementation',
+                    description: 'To help our clients achieve operational excellence, we build and support enterprise apps including SAP, Oracle, Salesforce, Manhattan, and Blue Yonder.',
+                    icon: '/images/industries/retail-consumer-industry/focus-areas/Package-implementation.jpeg'
+                },
+                {
+                    title: 'Data Driven Decision Making',
+                    description: 'We enable clients to optimise return on investment (ROI) from available resources through our state-of-the-art consultancy, enterprise data architecture, domain consulting, and plan-build-deploy services.',
+                    icon: '/images/industries/retail-consumer-industry/focus-areas/Data-Driven-Decision-Making.jpeg'
+                },
+                {
+                    title: 'Innovation',
+                    description: 'By utilising our investments in blockchain, AI/ML, AR/VR, digital twins, IoT, and other areas, we provide our clients with extensive co-innovation options.',
+                    icon: '/images/industries/retail-consumer-industry/focus-areas/Innovation.jpeg'
+                }
+            ]
+        },
+        industryOfferings: {
+            offerings: [
+                {
+                    title: 'Order Management',
+                    description: 'By using individualised order management, we improve the shopping experience by guaranteeing that the correct product is delivered at the right time, via the right channel, at the right price.',
+                    icon: '/images/industries/retail-consumer-industry/offerings/Order-Management.jpeg'
+                },
+                {
+                    title: 'Merchandising Solutions',
+                    description: 'We streamline omnichannel merchandising, pricing, promotion, assortment planning, and real-time tracking of orders, sales, inventory, and fulfilment. Our strategy involves developing tailored plans and putting packaged solutions into practice to enable shops to meet their goals.',
+                    icon: '/images/industries/retail-consumer-industry/offerings/Merchandising-Solutions.jpeg'
+                },
+                {
+                    title: 'Warehouse Management Solutions',
+                    description: 'Design, implement, and customize warehouse and transport management solutions with our expertise. We ensure faster time-to-market with our integration, configuration, and test accelerators. Our specialized tools facilitate seamless integration between WMS and WES.',
+                    icon: '/images/industries/retail-consumer-industry/offerings/Warehouse-Management-Solutions.jpeg'
+                },
+                {
+                    title: 'Digital Commerce',
+                    description: 'We offer comprehensive services that transform how businesses interact, conduct business, and support their clients in the current omnichannel setting, which includes contact centre, online, and offline modes. In addition to our knowledge of Salesforce and Oracle commerce, we also provide customised composeable commerce solutions.',
+                    icon: '/images/industries/retail-consumer-industry/offerings/Digital-Commerce.jpeg'
+                },
+                {
+                    title: 'POS solutions',
+                    description: 'Our proven expertise helps deliver premium experiences to end customers and store associates. We do this by leveraging our integrated retail solutions to manage sales, inventory, faster checkouts, real-time promotions, and omnichannel support.',
+                    icon: '/images/industries/retail-consumer-industry/offerings/POS-solutions.jpeg'
+                }
+
+            ]
+        }
     },
     {
         path: 'trading-distibution',
@@ -172,6 +297,15 @@ export const industryDefinitions: IndustryDefinition[] = [
                 }
             ]
         },
+        industryFocusAreas: {
+            focusAreas: [
+
+            ]
+        },
+        industryOfferings: {
+            offerings: [
+            ]
+        }
     },
     {
         path: 'industrial-manufacturing',
@@ -226,6 +360,70 @@ export const industryDefinitions: IndustryDefinition[] = [
                 }
             ]
         },
+        industryFocusAreas: {
+            focusAreas: [
+                {
+                    title: 'Industry 4.0 solutions',
+                    description: 'Utilise digital technologies including cloud computing, AI/ML, big data and analytics, IoT, AR/VR, and digital twins to transform manufacturing and industrial processes.',
+                    icon: '/images/industries/industrial-manufacturing/focus-areas/Industry-4.0-solutions.jpeg'
+                },
+                {
+                    title: 'Supply Chain Management',
+                    description: 'By streamlining the whole supply chain—from sourcing to delivery—our methods help manufacturers cut expenses, boost supplier cooperation, and better manage their inventories.',
+                    icon: '/images/industries/industrial-manufacturing/focus-areas/Supply-Chain-Management.jpeg'
+                },
+                {
+                    title: 'ERP Solutions',
+                    description: 'Use ERP solutions to effectively execute and customise manufacturing operations, have access to real-time data into supply chain, production, and inventory, and speed market launches with increased agility.',
+                    icon: '/images/industries/industrial-manufacturing/focus-areas/Implement-ERP-solutions.jpeg'
+                },
+                {
+                    title: 'Digital Strategy and Execution',
+                    description: 'In order to improve operational efficiency and growth, we specialise in creating cloud-native full-stack apps, automating business processes, and modernising legacy stacks. We also construct comprehensive digital transformation roadmaps.',
+                    icon: '/images/industries/industrial-manufacturing/focus-areas/Digital-Strategy-and-Execution.jpeg'
+                },
+                {
+                    title: 'Manage Customer Relationships',
+                    description: 'In order to collect leads, manage customer interactions, improve communication, and raise customer satisfaction, we assist in the implementation of CRM systems designed specifically for manufacturing and industrial companies.',
+                    icon: '/images/industries/industrial-manufacturing/focus-areas/Manage-Customer-Relationships.jpeg'
+                },
+                {
+                    title: 'Data analytics and business intelligence',
+                    description: 'Manufacturers are able to extract meaningful insights from their data and processes because to our demonstrated domain expertise. For clients, our specialists guarantee data-driven choices, improved predictive maintenance, and performance improvement.',
+                    icon: '/images/industries/industrial-manufacturing/focus-areas/Data-analytics-and-business-intelligence.jpeg'
+                }
+            ]
+        },
+        industryOfferings: {
+            offerings: [
+                {
+                    title: 'Oracle',
+                    description: 'A complete suite of end to end solutions including advisory services, implementations, migrations, rollouts and AMS.',
+                    icon: '/images/industries/industrial-manufacturing/offerings/Oracle.png'
+                },
+                {
+                    title: 'SAP',
+                    description: 'SAP certified life sciences solution which address the challenges and business needs of the life sciences industry.',
+                    icon: '/images/industries/industrial-manufacturing/offerings/SAP.png'
+                },
+                {
+                    title: 'Salesforce',
+                    description: 'Salesforce solutions provide end to and innovative digital solutions to modernise your legacy applications.',
+                    icon: '/images/industries/industrial-manufacturing/offerings/Salesforce.png'
+                },
+
+                {
+                    title: 'Warehouse Management Solutions',
+                    description: 'Design, implement, and customize warehouse and transport management solutions with our expertise. We ensure faster time-to-market with our integration, configuration, and test accelerators. Our specialized tools facilitate seamless integration between WMS and WES.',
+                    icon: '/images/industries/industrial-manufacturing/offerings/Warehouse-Management-Solutions.png'
+                },
+                {
+                    title: 'Cloud Transformation and Operations',
+                    description: 'To create long-term value, move, run, and scale business-critical apps to the cloud.',
+                    icon: '/images/industries/industrial-manufacturing/offerings/Cloud-Transformation-and-Operations.png'
+                }
+            ]
+        }
     },
     {
         path: 'life-science-and-healthcare',
@@ -284,5 +482,69 @@ export const industryDefinitions: IndustryDefinition[] = [
                 }
             ]
         },
+        industryFocusAreas: {
+            focusAreas: [
+                {
+                    title: 'Transform the Core',
+                    description: 'We design, develop, and maintain enterprise apps like Veeva, SAP, Oracle, and Salesforce to provide a cutting-edge foundation for corporate operations.',
+                    icon: '/images/industries/life-science-and-healthcare/focus-areas/Transform-the-Core.jpeg'
+                },
+                {
+                    title: 'Elevate HCP and Patient Experience',
+                    description: 'For patients and healthcare providers, we build unique experiences that promote meaningful connection and keep the focus on health outcomes.',
+                    icon: '/images/industries/life-science-and-healthcare/focus-areas/Elevate-HCP-and-Patient-Experience.jpeg'
+                },
+                {
+                    title: 'Leverage Data to Drive Decision Making',
+                    description: 'With the use of artificial intelligence, data products, data democratisation, and data governance, we assist clients in reaching new heights of data maturity.',
+                    icon: '/images/industries/life-science-and-healthcare/focus-areas/Leverage-Data-to-Drive-Decision-Making.jpeg'
+                },
+                {
+                    title: 'Infrastructure Modernization',
+                    description: 'To safeguard our clients from cybersecurity risks, we modernise IT infrastructure, cloud services, and digital workspaces.',
+                    icon: '/images/industries/life-science-and-healthcare/focus-areas/Infrastructure-Modernization.jpeg'
+                },
+                {
+                    title: 'Innovation',
+                    description: 'We offer full-stack, cloud-native services that assist businesses in designing, building, and managing their cloud and infrastructure, cutting costs and time-to-market, and enhancing innovation and scalability.',
+                    icon: '/images/industries/life-science-and-healthcare/focus-areas/Innovation.jpeg'
+                }
+            ]
+        },
+        industryOfferings: {
+            offerings: [
+                {
+                    title: 'Oracle',
+                    description: 'A complete suite of end to end solutions including advisory services, implementations, migrations, rollouts and AMS.',
+                    icon: '/images/industries/life-science-and-healthcare/offerings/Oracle.png'
+                },
+                {
+                    title: 'SAP',
+                    description: 'SAP certified life sciences solution which address the challenges and business needs of the life sciences industry.',
+                    icon: '/images/industries/life-science-and-healthcare/offerings/SAP.png'
+                },
+                {
+                    title: 'Salesforce',
+                    description: 'Salesforce solutions provide end to and innovative digital solutions to modernise your legacy applications.',
+                    icon: '/images/industries/life-science-and-healthcare/offerings/Salesforce.png'
+                },
+                {
+                    title: 'Digital HCP and Patient Experience',
+                    description: 'Solutions for digital customer experience that assist you in implementing your digital marketing tactics and enhancing the patient and HCP experience.',
+                    icon: '/images/industries/life-science-and-healthcare/offerings/Digital-HCP-and-Patient-Experience.png'
+                },
+                {
+                    title: 'Application services',
+                    description: 'We make next-generation ADM, modernization, microservices and API, testing automation, agile, DevSecOps, and more possible.',
+                    icon: '/images/industries/life-science-and-healthcare/offerings/Application-Services.png'
+                },
+                {
+                    title: 'Digital foundation services',
+                    description: 'We provide you the tools you need to run, maintain, and improve the technology infrastructure required to give your company\'s operations the utmost security and support.',
+                    icon: '/images/industries/life-science-and-healthcare/offerings/Digital-Foundation-Services.png'
+                }
+
+            ]
+        }
     }
 ];

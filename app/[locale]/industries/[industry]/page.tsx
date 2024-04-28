@@ -1,4 +1,6 @@
 import IndustryBenifits from "@/components/industry-benifits"
+import IndustryFocusAreas from "@/components/industry-focus-areas"
+import IndustryOfferings from "@/components/industry-offerings"
 import IndustryOverview from "@/components/industry-overview"
 import LoadingPage from "@/components/loading"
 import { blurImageURL } from "@/config/images"
@@ -51,6 +53,8 @@ export default function IndustryPage({
                 </div>
                 <div className="container mx-auto pb-20 space-y-10">
                     <IndustryOverview industryOverview={overView} />
+                    {industry.industryOfferings.offerings.length > 0 && <IndustryOfferings industryOfferings={industry.industryOfferings.offerings} />}
+                    {industry.industryFocusAreas.focusAreas.length > 0 && <IndustryFocusAreas focusAreas={industry.industryFocusAreas.focusAreas} />}
                     <IndustryBenifits industryBenifits={industry.industryBenifits} />
                 </div>
             </div>
