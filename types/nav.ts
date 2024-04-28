@@ -1,18 +1,30 @@
 import { Icons } from "@/components/icons"
+import { ServiceHighlightsConfig } from "@/components/service-highlights"
 
-export interface NavItem {
+export interface AppService {
     title: string
     href?: string
+    path?: string
     disabled?: boolean
     external?: boolean
     icon?: keyof typeof Icons
     label?: string
+    heroImage?: string
+    description?: string
+    details?: AppServiceDetails
+    whyChooseUs?: string
 }
 
-export interface NavItemWithChildren extends NavItem {
-    items: NavItemWithChildren[]
+export interface AppServiceDetails {
+    title: string
+    information: string[]
+    overview: ServiceHighlightsConfig
 }
 
-export interface MainNavItem extends NavItem { }
+export interface AppServiceWithChildren extends AppService {
+    items: AppServiceWithChildren[]
+}
 
-export interface SidebarNavItem extends NavItemWithChildren { }
+export interface MainAppService extends AppService { }
+
+export interface AppServicesWithChildren extends AppServiceWithChildren { }

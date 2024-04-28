@@ -33,6 +33,18 @@ const technologies = [
         label: "Custom Development",
     },
     {
+        id: "productdevelopment",
+        label: "Product Development",
+    },
+    {
+        id: "Oracle Applications",
+        label: "Oracle Applications",
+    },
+    {
+        id: "sap",
+        label: "SAP",
+    },
+    {
         id: "eCommerce",
         label: "eCommerce",
     },
@@ -200,39 +212,42 @@ export function ContactUsForm() {
                                     What type of project do you have in mind?
                                 </FormDescription>
                             </div>
-                            {technologies.map((item) => (
-                                <FormField
-                                    key={item.id}
-                                    control={form.control}
-                                    name="technologies"
-                                    render={({ field }) => {
-                                        return (
-                                            <FormItem
-                                                key={item.id}
-                                                className="flex flex-row items-start space-x-3 space-y-0"
-                                            >
-                                                <FormControl>
-                                                    <Checkbox
-                                                        checked={field.value?.includes(item.id)}
-                                                        onCheckedChange={(checked) => {
-                                                            return checked
-                                                                ? field.onChange([...field.value, item.id])
-                                                                : field.onChange(
-                                                                    field.value?.filter(
-                                                                        (value) => value !== item.id
+                            <div className="grid grid-cols-3 gap-5">
+                                {technologies.map((item) => (
+                                    <FormField
+                                        key={item.id}
+                                        control={form.control}
+                                        name="technologies"
+                                        render={({ field }) => {
+                                            return (
+                                                <FormItem
+                                                    key={item.id}
+                                                    className="flex flex-row items-start space-x-3 space-y-0"
+                                                >
+                                                    <FormControl>
+                                                        <Checkbox
+                                                            checked={field.value?.includes(item.id)}
+                                                            onCheckedChange={(checked) => {
+                                                                return checked
+                                                                    ? field.onChange([...field.value, item.id])
+                                                                    : field.onChange(
+                                                                        field.value?.filter(
+                                                                            (value) => value !== item.id
+                                                                        )
                                                                     )
-                                                                )
-                                                        }}
-                                                    />
-                                                </FormControl>
-                                                <FormLabel className="font-normal">
-                                                    {item.label}
-                                                </FormLabel>
-                                            </FormItem>
-                                        )
-                                    }}
-                                />
-                            ))}
+                                                            }}
+                                                        />
+                                                    </FormControl>
+                                                    <FormLabel className="font-normal">
+                                                        {item.label}
+                                                    </FormLabel>
+                                                </FormItem>
+                                            )
+                                        }}
+                                    />
+                                ))}
+                            </div>
+
                             <FormMessage />
                         </FormItem>
                     )}

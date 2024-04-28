@@ -6,6 +6,7 @@ import { SiteFooter } from '@/components/site-footer'
 import { ThemeProvider } from '@/components/theme-provider'
 import { notFound } from 'next/navigation'
 import { Toaster } from '@/components/ui/toaster'
+import SiteFooterNew from '@/components/site-footer-new'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -36,7 +37,7 @@ export default function RootLayout({
           <SiteHeader />
           {children}
           <Toaster />
-          <SiteFooter />
+          <SiteFooterNew />
         </ThemeProvider>
 
       </body>

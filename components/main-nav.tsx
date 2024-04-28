@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import Link from "next/link"
+import { useTheme } from "next-themes"
 
 import Image from "next/image"
 import { MainNavigation } from "./navigation-menu"
@@ -9,14 +10,16 @@ import { MainNavigation } from "./navigation-menu"
 
 export function MainNav() {
 
+    const { theme } = useTheme()
     return (
-        <div className="flex flex-1 items-center justify-center">
-            <div className="flex items-center  justify-center pl-10">
-                <Link href="/" className="mr-6 items-start justify-start space-x-2">
-                    <Image src="/logo.png" alt="Oink Solutions" width={150} height={200} />
+        <div className="md:flex flex-row space-x-5 mr-4 hidden">
+            <div className="flex items-center  justify-center lg:pl-10">
+                <Link href="/" className="mr-6 items-start justify-start space-x-2 lg:pl-20 sm:pl-5">
+                    <Image src="/oink-logo-white.png" className="dark:hidden" alt="Oink Solutions" width={40} height={40} />
+                    <Image src="/oink-logo-dark.png" className="hidden dark:block" alt="Oink Solutions" width={40} height={40} />
                 </Link>
             </div>
-            <div className="flex flex-1 items-center justify-center pr-20">
+            <div className="flex flex-1 items-center justify-center">
                 <MainNavigation />
             </div>
 

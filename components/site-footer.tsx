@@ -12,7 +12,7 @@ export function SiteFooter() {
                     <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
                         © 2023 Oink Solutions.
                         <Link
-                            href={siteConfig.links.nemetschek}
+                            href={siteConfig.links.oink}
                             target="_blank"
                             rel="noreferrer"
                             className="font-medium underline-offset-4"

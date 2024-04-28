@@ -10,7 +10,7 @@ const locations = [
         address: '#727, SMR Hi-Lands,SY no: 202(part) and 201/1/AA,Miyapur, Hyderabad - 500049.',
         coordinates: '40.730610, -73.935242',
         phoneNumber: '+91 8341091411',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Above_Gotham.jpg/1200px-Above_Gotham.jpg'
+        image: '/images/locations/hyderabad.webp'
     },
     {
         city: 'Kurnool',
@@ -20,17 +20,17 @@ const locations = [
         address: '# 203, Viswanath Towers, Dharamapeta, Kurnool, Andhra Pradesh, India - 518002.',
         coordinates: '34.052235, -118.243683',
         phoneNumber: '+91 8341091411',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/LA_Skyline_Mountains2.jpg/1200px-LA_Skyline_Mountains2.jpg'
+        image: '/images/locations/kurnool.jpeg'
     },
     {
         city: 'Bangalore',
         country: 'India',
         officeName: 'Registered Address',
         companyName: 'Oink Solutions Private Limited',
-        address: '# 203, Viswanath Towers, Dharamapeta, Kurnool, Andhra Pradesh, India - 518002.',
+        address: '# 122, Satwi\'s Thavil, Sruthi Tower, Panathur Road, Bangalore, Karnataka, India, 560087',
         coordinates: '34.052235, -118.243683',
         phoneNumber: '+91 8341091411',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/LA_Skyline_Mountains2.jpg/1200px-LA_Skyline_Mountains2.jpg'
+        image: '/images/locations/bangalore.jpeg'
     },
 ]
 
