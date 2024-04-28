@@ -72,7 +72,32 @@ export default function AppServicesPage(
                                             ))
                                         }
                                     </div>
-                                    <div className="flex flex-col pt-10">
+                                    {
+                                        appService.details.comprehensiveSupport !== undefined ? (
+                                            <div className="flex flex-col space-y-5">
+                                                <h3 className="text-2xl font-bold">Our comprehensive support services can help you:</h3>
+
+                                                <div className="flex flex-col space-y-5 pl-10">
+                                                    {
+                                                        appService.details.comprehensiveSupport.map((info, index) => (
+                                                            //Render as bullet points
+                                                            <div key={index} className="flex flex-row space-x-5">
+                                                                <div className="text-2xl font-bold">•</div>
+                                                                <p className="text-lg">{info}</p>
+                                                            </div>
+                                                        ))
+                                                    }
+                                                </div>
+                                            </div>
+                                        ) : (
+                                            null
+                                        )
+                                    }
+                                    <div className="flex flex-col pt-10 space-y-10">
+                                        <div className="flex flex-col space-y-5">
+                                            <p className="text-2xl font-bold">Benifits</p>
+                                        </div>
+                                        <Separator className="w-20 h-1" />
                                         <ServiceHighlights serviceHighlights={appService.details.overview.serviceHighlights} />
                                     </div>
                                 </div>
