@@ -1,11 +1,6 @@
 
 import { ListItem } from './navigation-menu';
-import { NavigationMenuContent, NavigationMenuItem, NavigationSubMenuContent, NavigationSubMenuTrigger } from './ui/navigation-menu';
-import { NavigationMenuSub, NavigationMenuTrigger } from '@radix-ui/react-navigation-menu';
-import { ChevronRight, ChevronRightCircle } from 'lucide-react';
-import { it } from 'node:test';
-import { Separator } from './ui/separator';
-import { OfferingsMenuItemsConfig, SAPAppsMenuItemsConfig, oracleAppsMenuItemsConfig } from '@/config/app-services';
+import { OfferingsMenuItemsConfig, SAPAppsMenuItemsConfig, oracleAppsMenuItemsConfig, o9AppsMenuItemsConfig } from '@/config/app-services';
 import Link from 'next/link';
 
 
@@ -13,6 +8,7 @@ import Link from 'next/link';
 const appMenuItemsConfigMap: Map<string, OfferingsMenuItemsConfig> = new Map([
     ['Oracle Applications', oracleAppsMenuItemsConfig],
     ['SAP', SAPAppsMenuItemsConfig],
+    ['O9 Solutions', o9AppsMenuItemsConfig]
 ]);
 
 export default function OracleAppsMenuContent() {
@@ -38,7 +34,7 @@ function ServicesPerApp(appName: string, appMenuItemsConfig: OfferingsMenuItemsC
                     <Link href={item.href ? item.href : ''} key={index}>
                         <ListItem
                             key={item.title} title={item.title}
-                            href={item.href} />
+                            {...(item.href ? { href: item.href } : {})} />
                     </Link>
                 ))}
             </ul>

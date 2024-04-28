@@ -1,5 +1,4 @@
 import { AppServicesWithChildren } from "@/types/nav";
-import { title } from "process";
 
 export interface OfferingsMenuItemsConfig {
     menuItems: AppServicesWithChildren[];
@@ -422,9 +421,8 @@ export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
             details: {
                 title: 'SAP ECC And Business Suite',
                 information: [
-                    'Avoid unwanted upgrades and fund innovation for your current ERP system with savings from Oink Support™ for SAP ECC and Business Suite. We will secure and fully support your SAP release — including customizations and all tax, legal, and regulatory updates — for 15+ more years from the time you switch to us, with no need to upgrade and no need to worry about SAP’s scheduled 2027 end of mainstream support for Business Suite 7 and ECC 6.',
+                    'Oink SupportTM for SAP Business Suite and ECC can help you save money on unneeded upgrades and support innovation for your present ERP system. After you switch to us, we will secure and fully support your SAP release, including customisations and all tax, legal, and regulatory updates, for at least 15 more years. You won\'t have to upgrade, and you won\'t have to worry about SAP\'s planned 2027 end of mainstream support for Business Suite 7 and ECC 6',
                     'Our 24/7/365 global, follow-the-sun support is led by Primary Support Engineers who average 20+ years of experience. We can support your SAP software on-premises, in the cloud, or throughout a cloud migration. And while we guarantee a response time of 10 minutes for critical P1 issues, our average actual response time for P1 and P2 issues is under 90 seconds.',
-                    'Oink Support for SAP ECC and Business Suite includes support for all SAP modules, including:',
                 ],
                 overview: {
                     serviceHighlights: [
@@ -761,4 +759,47 @@ export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
             ]
         }
     ]
+}
+
+export const o9AppsMenuItemsConfig: OfferingsMenuItemsConfig = {
+
+    menuItems: [
+        {
+            title: 'Demand Planning',
+            href: '',
+            path: 'demand-planning',
+            heroImage: '/images/appservices/hero/demand-planning.jpeg',
+            description: 'ACCELERATING PROCESSES TO BOOST PROFITABILITY',
+            whyChooseUs: '',
+            items: []
+        },
+        {
+            title: 'Supply Chain planning and Analytics',
+            href: '',
+            path: 'supply-chain-planning-and-analytics',
+            heroImage: '/images/appservices/hero/demand-planning.jpeg',
+            description: 'ACCELERATING PROCESSES TO BOOST PROFITABILITY',
+            whyChooseUs: '',
+            items: []
+        },
+        {
+            title: 'MEIO',
+            href: '',
+            path: 'meio',
+            heroImage: '/images/appservices/hero/demand-planning.jpeg',
+            description: 'ACCELERATING PROCESSES TO BOOST PROFITABILITY',
+            whyChooseUs: '',
+            items: []
+        },
+        {
+            title: 'Integrated Business  Planning',
+            href: '',
+            path: 'integrated-business-planning',
+            heroImage: '/images/appservices/hero/demand-planning.jpeg',
+            description: 'ACCELERATING PROCESSES TO BOOST PROFITABILITY',
+            whyChooseUs: '',
+            items: []
+        }
+    ]
+
 }
