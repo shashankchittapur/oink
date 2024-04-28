@@ -19,6 +19,7 @@ export interface AppServiceDetails {
     title: string
     information: string[]
     overview: ServiceHighlightsConfig
+    comprehensiveSupport?: string[]
 }
 
 export interface AppServiceWithChildren extends AppService {

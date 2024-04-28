@@ -443,7 +443,13 @@ export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
                             icon: '/images/appservices/icons/easy-to-adopt.png'
                         }
                     ]
-                }
+                },
+                comprehensiveSupport: [
+                    'Achieve your financial, operational, and strategic goals',
+                    'Save up to 90% on your total current SAP Business Suite and ECC support costs',
+                    'Extract greater value from your technology investments',
+                    'Proactively secure your enterprise software ecosystem'
+                ]
             },
             items: [
                 {
@@ -483,14 +489,8 @@ export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
             details: {
                 title: 'SAP S/4HANA',
                 information: [
-                    'SAP S/4HANA is an intelligent, integrated ERP system that runs on our in-memory database, SAP HANA. It can help you:',
-                    '• Turn data into instant insights',
-                    '• Connect with IoT and the Intelligent Edge',
-                    '• Use next-gen technologies like AI and machine learning',
-                    '• Run in the cloud or on-premise',
-                    '• Simplify your landscape with one data model and one user experience',
-                    '• Get ready for the future with the latest innovations',
-                    'SAP S/4HANA is the digital core that connects your enterprise with people, business networks, the Internet of Things, Big Data, and more. Take advantage of next-gen technologies with the SAP HANA in-memory database, machine learning, AI, and more – in a single, integrated ERP solution. Simplify your landscape with one data model and one user experience (UX) for your entire enterprise. SAP S/4HANA is available in the cloud, on-premise, or in a hybrid deployment.',
+                    'Our Oink SupportTM for SAP S/4HANA offers award-winning, engineer-led services, including support for custom code; all tax, legal, and regulatory updates; and strategic advisory services for roadmap planning and connectivity improvement, regardless of whether you\'re running SAP S/4HANA or thinking about migrating from ECC to S/4HANA.',
+                    'Our services can save you up to 90% on your total SAP S/4HANA support costs, allowing you to free up a substantial amount of money for innovation. We will secure and completely support your S/4HANA release. Primary Support Engineers, with an average tenure of more than twenty years, oversee our round-the-clock support services. Our average reaction time for important P1 and P2 issues is less than 90 seconds. We can assist your S/4HANA release on-premises or in the cloud.'
                 ],
                 overview: {
                     serviceHighlights: [
@@ -511,7 +511,13 @@ export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
                             icon: '/images/appservices/icons/easy-to-adopt.png'
                         }
                     ]
-                }
+                },
+                comprehensiveSupport: [
+                    'Achieve your strategic, financial, and operational goals',
+                    'Extract greater value from your technology investments',
+                    'Proactively secure your enterprise software ecosystem',
+                    'Follow your own IT roadmap: on-premises, cloud, or hybrid'
+                ]
             },
             whyChooseUs: 'Oink is a leading provider of SAP services. We have a rich experience which cuts across various horizontals and verticals of Industry. We are constantly evolving and scaling new horizons. In our pursuit to excellence, now we have extended our capabilities from planning to execution to orchestrate a seamless business process for enterprises.',
             items: [
@@ -526,16 +532,8 @@ export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
             details: {
                 title: 'SAP HANA Database',
                 information: [
-                    'Improve your database availability, performance and ROI and security with Rimini Support™ for SAP HANA database. We will fully support your SAP HANA databases for 15+ more years from the time you switch to us, without expensive upgrades, at a savings of up to 90% on your total current SAP HANA database support costs, to help you fund innovation from your existing IT budget.',
-                    'Our global, 24/7/365, follow-the-sun software support is led by Primary Support Engineers who average 20+ years of experience. With Rimini Support, you benefit from integrated support for all of your databases and applications from one proven partner. And our average response time for P1 and P2 issues is under 90 seconds.',
-                    'We go beyond the traditional break/fix support and provide:',
-                    '• Support for custom code and configurations',
-                    '• Support for interoperability issues',
-                    '• Performance tuning',
-                    '• Security guidance',
-                    '• Interoperability guidance',
-                    '• Upgrade support',
-                    '• Integration support',
+                    'Oink SupportTM for SAP HANA database will help you increase your database\'s availability, performance, ROI, and security. In order to help you finance innovation from your current IT budget, we will completely support your SAP HANA databases for at least 15 more years after you migrate to us, without the need for pricey upgrades, and at a savings of up to 90% on your total current SAP HANA database support costs.',
+                    'Our primary support engineers, who have an average of more than 20 years of experience, oversee our follow-the-sun, global, 24/7/365 software support. All of your databases and apps will receive integrated support from a single, dependable partner when you work with Oink Support. For P1 and P2 difficulties, we respond in less than 90 seconds on average.',
                 ],
                 overview: {
                     serviceHighlights: [
@@ -556,7 +554,14 @@ export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
                             icon: '/images/appservices/icons/easy-to-adopt.png'
                         }
                     ]
-                }
+                },
+                comprehensiveSupport: [
+                    'Advanced support for both commercial and open-source databases, on-premises or in the cloud',
+                    'Flexible support for any number of servers, from one to thousands',
+                    'Scalable support for any data storage requirements, from small to up to 700TB',
+                    'Performance support',
+                    'Configuration support'
+                ]
             },
             whyChooseUs: 'Oink is a leading provider of SAP services. We have a rich experience which cuts across various horizontals and verticals of Industry. We are constantly evolving and scaling new horizons. In our pursuit to excellence, now we have extended our capabilities from planning to execution to orchestrate a seamless business process for enterprises.',
             items: [
@@ -616,26 +621,26 @@ export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
             details: {
                 title: 'SAP BusinessObjects',
                 information: [
-                    'Avoid being locked-in to the vendor’s roadmap and stop paying for unwanted upgrades. Instead, save big with Rimini Support™ for SAP BusinessObjects, craft your own IT roadmap aligned to business priorities, and fund innovation with your existing budget. We will fully support your BusinessObjects release — including customizations and all tax, legal, and regulatory updates — for 15+ more years from the time you switch to us, without expensive upgrades.',
-                    'SAP BusinessObjects is a business intelligence software solution that provides access to a variety of business applications and tools that enable organizations to make informed decisions. It is used by enterprises for reporting, query and analysis and for enterprise performance management (EPM).',
-                    'Oink has helped numerous customers in rationalizing their ERP through digital transformation to SAP BusinessObjects solutions.',
+                    'Avoid from paying for unnecessary updates and avoid being forced to follow the vendor\'s roadmap. Instead, create your own IT strategy that is in line with business needs, save a tonne of money with Oink SupportTM for SAP BusinessObjects, and use your current budget to fund innovation. Without requiring costly upgrades, we will provide complete support for your BusinessObjects release for at least 15 more years after you migrate to us, covering customisations as well as all tax, legal, and regulatory updates.',
+                    'With an average tenure of more than two decades, our Primary Support Engineers oversee our global, round-the-clock support. Furthermore, our average reaction time for P1 and P2 issues is less than 90 seconds, even though we guarantee a 10-minute response time for serious P1 issues.',
+
                 ],
                 overview: {
                     serviceHighlights: [
                         {
-                            title: 'Improved customer experience ',
+                            title: 'Chart Your Roadmap',
                             icon: '/images/appservices/icons/better-decision-making.png'
                         },
                         {
-                            title: 'Tailored business solutions',
+                            title: 'Innovate Around Existing Systems',
                             icon: '/images/appservices/icons/faster-response.png'
                         },
                         {
-                            title: 'Seamless implementation process',
+                            title: 'Enable Business Stakeholders',
                             icon: '/images/appservices/icons/easy-to-adopt.png'
                         },
                         {
-                            title: 'Unmatched support and services',
+                            title: 'Become an Employer of Choice',
                             icon: '/images/appservices/icons/better-decision-making.png'
                         },
                         {
@@ -643,7 +648,14 @@ export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
                             icon: '/images/appservices/icons/faster-response.png'
                         },
                     ]
-                }
+                },
+                comprehensiveSupport: [
+                    'Achieve your strategic, financial, and operational goals',
+                    'Save up to 90% on your total current SAP BusinessObjects support costs',
+                    'Extract greater value from your technology investments',
+                    'Proactively secure your enterprise software ecosystem',
+
+                ]
             },
             items: [
                 {
@@ -667,8 +679,9 @@ export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
             details: {
                 title: 'SAP Cloud Platform',
                 information: [
-                    'SAP Cloud Platform is an open platform-as-a-service, which includes the in-memory SAP HANA database management system, connects to both on premises and cloud-based systems running SAP or other third-party software and relies on open standards, like Java, JavaScript, Node.js and Cloud Foundry for integration options.',
-                    'Oink has helped numerous customers in rationalizing their ERP through digital transformation to SAP Cloud Platform solutions.',
+                    'Productivity, predictability, and increasing business value',
+                    'To improve performance, your IT and business leaders chose cloud-based apps. However, maximum return on investment is not guaranteed by simply deploying and setting them once. Gain greater business value from your cloud apps with the aid of Oink ManageTM and Oink ConsultTM for SAP cloud products.',
+
                 ],
                 overview: {
                     serviceHighlights: [
@@ -693,7 +706,13 @@ export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
                             icon: '/images/appservices/icons/low-cost.png'
                         }
                     ]
-                }
+                },
+                comprehensiveSupport: [
+                    'Achieve your financial, operational, and strategic goals',
+                    'Save up to 90% on your total current SAP Business Suite and ECC support costs',
+                    'Extract greater value from your technology investments',
+                    'Proactively secure your enterprise software ecosystem'
+                ]
             },
             items: [
                 {
@@ -756,7 +775,8 @@ export const SAPAppsMenuItemsConfig: OfferingsMenuItemsConfig = {
                     heroImage: '/images/services/hero/Oracle-Data-Management-Platform.png',
                     items: []
                 }
-            ]
+            ],
+            whyChooseUs: 'SLAs that lead the industry, We promise our performance in terms of response times, frequency of case update communication, and resolution times. You may relax knowing that your ticket will be handled promptly and that you will be kept updated at every stage, from ticket submission to issue resolution and case closure.'
         }
     ]
 }
