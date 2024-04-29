@@ -18,7 +18,7 @@ export default function CompanyFeaturesMarquee() {
                             {companyServiceFeatures.map((feature, index) => (
                                 <div className="flex flex-col space-y-5" key={index}>
                                     <div className="bg-gradient-to-r from-indigo-400 to-pink-900 bg-clip-text
-                      bg-transparent text-transparent outline-transparent w-[300px] ">
+                      bg-transparent text-transparent outline-transparent lg:w-[300px] w-[400px]  ">
                                         <div className="flex flex-col mx-auto space-y-5 text-start pl-10 py-10">
                                             <div className="flex items-center justify-center">
                                                 <Image src={feature.icon} alt={feature.title} width={400} height={400} />

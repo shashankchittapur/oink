@@ -8,7 +8,7 @@ export const siteConfig = {
         oink: "https://oink.com",
         privacy: "https://oink.com/privacy/privacy-policy.pdf",
         annexure: "https://oink.com/privacy/customer-data-processing-annex.pdf",
-        linkedin: "https://github.com/shadcn-ui/ui",
+        linkedin: "https://www.linkedin.com/in/oink-solutions-b583ab248/",
         twitter: "https://twitter.com/oink",
         facebook: "https://www.facebook.com/oink",
         youtube: "https://www.youtube.com/user/oink",

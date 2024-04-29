@@ -5,9 +5,9 @@ export default function MissionVision() {
 
     return (
         <div className="min-h-screen">
-            <div className='flex flex-col pl-36 mx-auto'>
-                <div className="flex lg:flex-row  sm:flex-col space-x-10 p-5">
-                    <div className="flex flex-col space-y-5 w-1/4">
+            <div className='flex flex-col lg:pl-36 pl-10 lg:mx-auto'>
+                <div className="flex lg:flex-row  flex-col lg:space-x-10 space-y-10 p-5">
+                    <div className="flex flex-col space-y-5 lg:w-1/4 w-3/4">
                         <div className="w-full">
                             <Image
                                 src="/images/mission.jpeg"
@@ -43,7 +43,7 @@ export default function MissionVision() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col space-y-5 mx-auto w-1/4 col-span-2 items-center justify-center">
+                    <div className="flex flex-col space-y-5 lg:mx-auto lg:w-1/4 w-3/4 lg:col-span-2 items-center justify-center">
                         <div className="w-full">
                             <Image
                                 src="/images/vision.jpeg"
@@ -56,7 +56,7 @@ export default function MissionVision() {
                         </div>
 
                     </div>
-                    <div className="flex flex-col w-1/2 pt-10 pb-10 pl-5">
+                    <div className="flex flex-col lg:w-1/2 w-full pt-10 pb-10 pl-5">
                         <div className='flex flex-col space-y-10 w-3/4'>
                             <div className='flex flex-col space-y-5'>
                                 <h1 className="text-3xl font-extrabold tracking-tight sm:text-3xl">
