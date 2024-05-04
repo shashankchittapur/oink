@@ -212,7 +212,7 @@ export function ContactUsForm() {
                                     What type of project do you have in mind?
                                 </FormDescription>
                             </div>
-                            <div className="grid grid-cols-3 gap-5">
+                            <div className="grid lg:grid-cols-3 grid-cols-1 gap-5">
                                 {technologies.map((item) => (
                                     <FormField
                                         key={item.id}

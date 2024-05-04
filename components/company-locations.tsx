@@ -36,7 +36,7 @@ const locations = [
 
 export default function CompanyLocations() {
     return (
-        <div className="flex flex-1 flex-row space-x-20 pt-16 pb-36">
+        <div className="flex flex-1 lg:flex-row flex-col lg:space-x-20 space-y-5 lg:pt-16 pt-5 lg:pb-36">
             {locations.map((location) => (
                 <ComapnyLocationCard
                     key={location.city}

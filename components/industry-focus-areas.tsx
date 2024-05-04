@@ -12,7 +12,7 @@ export default function IndustryFocusAreas({
             <h2 className="text-3xl font-bold text-start">Focus Areas</h2>
             <Separator className="w-20 h-1" />
             <p className="text-lg text-white">Our focus areas are designed to help you achieve your goals</p>
-            <div className="grid grid-flow-row grid-cols-3  space-x-10 space-y-10 items-center justify-center">
+            <div className="grid grid-flow-row lg:grid-cols-3  space-x-10 space-y-10 items-center justify-center">
                 {focusAreas.map((item, index) => (
                     <Card key={index} className="space-y-5 rounded-lg  border border-gray-50 pt-10 pb-10
                     transition duration-300 hover:border-blue-500 hover:scale-110">

@@ -51,9 +51,9 @@ export default function AppServicesPage(
                         className="z-0"
                         placeholder="blur"
                         blurDataURL={blurImageURL} />
-                    <div className="z-30 absolute pl-36 lg:space-y-5  text-white">
-                        <h1 className="lg:text-6xl md:text-4xl sm:text-lg font-bold w-1/2">{appService.title}</h1>
-                        <h3 className="lg:text-2xl md:text-xl sm:text-sm font-bold">{appService.description}</h3>
+                    <div className="z-30 absolute lg:pl-36 pl-10 space-y-5   text-white">
+                        <h1 className="lg:text-6xl md:text-4xl text-4xl font-bold lg:w-1/2 w-3/4">{appService.title}</h1>
+                        <h3 className="lg:text-2xl md:text-xl text-lg font-bold">{appService.description}</h3>
                     </div>
                 </div>
                 <div className="container mx-auto pb-20 space-y-10">
@@ -125,7 +125,7 @@ export default function AppServicesPage(
                                 <div className="flex flex-col space-y-5">
                                     <h3 className="text-3xl font-bold">Products</h3>
                                     <Separator className="w-20 h-1" />
-                                    <div className="lg:pl-20 pt-12 grid lg:gap-10 lg:grid-cols-3 sm:grid-cols-2 sm:gap-5">
+                                    <div className="lg:pl-20 pt-12 grid lg:gap-10 lg:grid-cols-3 sm:grid-cols-2 sm:gap-5 gap-5">
                                         {appService.items.map((item, index) => (
                                             <div key={index} className="text-center relative lg:w-[300px] md:w-[400px] lg:h-[200px] border rounded-lg
                 transition duration-300 hover:border-b-white hover:scale-110">

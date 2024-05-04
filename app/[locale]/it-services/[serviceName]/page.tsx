@@ -47,14 +47,14 @@ export default function ITServicePage({
                         placeholder="blur"
                         blurDataURL={blurImageURL} />
 
-                    <div className="z-30 absolute lg:pt-36 md:pt-24 sm:pt-12  lg:space-y-5 md:space-y-4 sm:space-y-3 text-white pl-36">
-                        <h1 className="lg:text-6xl md:text-4xl font-bold">{service.title}</h1>
-                        <h3 className="lg:text-2xl font-bold">{service.description}</h3>
+                    <div className="z-30 absolute lg:pt-36 md:pt-24 sm:pt-12  lg:space-y-5 md:space-y-4 space-y-5 text-white lg:pl-36 pl-10">
+                        <h1 className="lg:text-6xl md:text-4xl text-4xl font-bold lg:w-1/2 w-3/4">{service.title}</h1>
+                        <h3 className="lg:text-2xl md:text-xl text-lg font-bold">{service.description}</h3>
                     </div>
                 </div>
                 <div className="container mx-auto pb-20">
-                    <div className="flex flex-row space-x-20">
-                        <div className="flex flex-col space-y-5 w-1/2">
+                    <div className="flex lg:flex-row flex-col lg:space-x-20 space-y-10">
+                        <div className="flex flex-col space-y-5 lg:w-1/2 w-full">
                             <h1 className="text-4xl font-bold">Overview</h1>
                             <Separator orientation="horizontal" className="w-20 h-1" />
                             {service.overview.details.map((detail) => (
@@ -64,7 +64,7 @@ export default function ITServicePage({
                             ))}
                         </div>
                         {overviewImagePresent ?
-                            (<div className="flex w-1/2">
+                            (<div className="flex lg:w-1/2 w-full">
                                 <Image src={service.overview.image || ''}
                                     alt={service.title}
                                     width={0} height={0} sizes="100vw"
@@ -103,7 +103,7 @@ export default function ITServicePage({
                             <div className="flex flex-col space-y-5">
                                 <h1 className="text-4xl font-bold">Benefits</h1>
                                 <Separator orientation="horizontal" className="w-20 h-1" />
-                                <div className="pt-5 lg:grid lg:grid-cols-4 gap-5 md:grid-cols-2 sm:grid-cols-1">
+                                <div className="pt-5 lg:grid lg:grid-cols-4 lg:gap-5 md:grid-cols-2 sm:grid-cols-1 sm:gap-y-5">
                                     {benefits?.benifits.map((item, index) => (
                                         <div key={index} className="text-center relative lg:w-[300px]  md:w-[400px] lg:h-[300px] border rounded-lg
                                     transition duration-300 hover:border-b-white hover:scale-110">

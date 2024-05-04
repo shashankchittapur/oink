@@ -6,15 +6,15 @@ import { Achievement } from "@/types/achievement";
 export default function OurAchievements() {
 
     return (
-        <div className="container mx-auto min-h-screen">
+        <div className="flex lg:mx-auto min-h-screen">
             <div className="flex flex-col items-center justify-center min-h-screen space-y-10">
                 <div className="text-center space-y-5 w-3/4 pb-5">
-                    <h4 className="text-xl font-bold tracking-tight text-gray-400">OUR ACHIEVEMENTS</h4>
-                    <h1 className="text-9xl font-bold tracking-tight sm:text-6xl bg-gradient-to-r from-cyan-400 to-pink-600 bg-clip-text text-transparent">
+                    <h4 className="text-4xl font-bold tracking-tight text-gray-400">OUR ACHIEVEMENTS</h4>
+                    <h1 className="text-3xl font-bold tracking-tight sm:text-6xl bg-gradient-to-r from-cyan-400 to-pink-600 bg-clip-text text-transparent">
                         Numbers echo the footsteps of our journey through time
                     </h1>
                 </div>
-                <div className="grid grid-cols-4 grid-rows-2 gap-10">
+                <div className="grid lg:grid-cols-4 lg:grid-rows-2 grid-cols-2 lg:gap-10">
                     {
                         achievements.map((achievement: Achievement, index: number) => {
                             return <AchievementCard key={index} title={achievement.title} description={achievement.description} image={achievement.image} />

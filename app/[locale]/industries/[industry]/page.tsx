@@ -45,9 +45,9 @@ export default function IndustryPage({
                             placeholder="blur"
                             blurDataURL={blurImageURL} />
 
-                        <div className="z-30 absolute pl-36 lg:pt-36 md:pt-24 sm:pt-12  lg:space-y-5 md:space-y-4 sm:space-y-3 text-white">
-                            <h1 className="lg:text-6xl md:text-4xl font-bold">{industry.title}</h1>
-                            <h3 className="lg:text-2xl font-bold">{industry.description}</h3>
+                        <div className="z-30 absolute lg:pl-36 pl-10 pt-10 lg:pt-36 md:pt-24 sm:pt-12  space-y-5 md:space-y-4 sm:space-y-3 text-white">
+                            <h1 className="lg:text-6xl md:text-4xl text-4xl font-bold lg:w-1/2 w-3/4">{industry.title}</h1>
+                            <h3 className="lg:text-2xl md:text-xl text-lg font-bold">{industry.description}</h3>
                         </div>
                     </div>
                 </div>
