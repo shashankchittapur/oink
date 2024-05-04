@@ -45,9 +45,9 @@ export default function ServicePage({
                         className="z-0"
                         placeholder="blur"
                         blurDataURL={blurImageURL} />
-                    <div className="z-30 absolute lg:pt-36 pl-36 lg:space-y-5  text-white">
-                        <h1 className="lg:text-6xl md:text-4xl sm:text-lg font-bold">{service.title}</h1>
-                        <h3 className="lg:text-2xl md:text-xl sm:text-sm font-bold">{service.description}</h3>
+                    <div className="z-30 absolute lg:pt-36 lg:pl-36 pl-10 lg:space-y-5 space-y-10  text-white">
+                        <h1 className="lg:text-6xl md:text-4xl text-4xl font-bold">{service.title}</h1>
+                        <h3 className="lg:text-2xl md:text-xl text-lg font-bold">{service.description}</h3>
                     </div>
                 </div>
                 <div className="container mx-auto pb-20">

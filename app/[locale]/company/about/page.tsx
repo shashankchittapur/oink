@@ -7,7 +7,7 @@ import LoadingPage from "@/components/loading";
 export default function AboutUsPage() {
     return (
         <Suspense fallback={<LoadingPage />}>
-            <div className="flex flex-col justify-between space-y-10 p-24">
+            <div className="flex flex-col justify-between space-y-10 lg:p-24 p-5">
                 <AboutUsMainSection />
                 <OurValues />
                 <JoinOurTeam />

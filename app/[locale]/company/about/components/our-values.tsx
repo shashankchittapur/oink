@@ -3,7 +3,7 @@ import { Icons } from "@/components/icons";
 
 export default function OurValues() {
     return (
-        <div className="container">
+        <div className="lg:container flex flex-col">
             <div className="flex flex-col items-center justify-center space-y-20 pt-24 pb-24">
                 <div className="w-full h-[400px] rounded-lg">
                     <Image alt="team-work" src={"/team-work.avif"} height={0} width={0} sizes="100vw"

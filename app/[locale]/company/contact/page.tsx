@@ -13,7 +13,7 @@ export default function ContactPage() {
 
     return (
         <Suspense fallback={<LoadingPage />}>
-            <div className="flex flex-col justify-between space-y-10 p-24">
+            <div className="flex flex-col justify-between lg:space-y-10 space-y-5 lg:p-24 p-10">
                 <div className="container mx-auto h-min px-4">
                     <div className="flex flex-col justify-between space-y-10">
                         <div className="text-3xl text-gray-400 space-y-5 text-start justify-center ">
@@ -37,7 +37,7 @@ export default function ContactPage() {
                 </div>
                 <ContactUsMain />
                 <div id="contact-details" className="container mx-auto h-min px-4">
-                    <div id="contact-details" className="flex flex-col p-24">
+                    <div id="contact-details" className="flex flex-col lg:p-24 ">
                         <div className="flex flex-1 flex-col">
                             <h2 className="text-3xl">OFFICES</h2>
                         </div>

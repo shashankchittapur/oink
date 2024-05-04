@@ -6,7 +6,7 @@ import { ArrowRightIcon } from "@radix-ui/react-icons";
 export default function JoinOurTeam() {
 
     return (
-        <div className="container">
+        <div className="lg:container flex">
 
             <div className="rounded-xl bg-blue-900 bg-opacity-10">
                 <div
@@ -22,8 +22,8 @@ export default function JoinOurTeam() {
                     />
                 </div>
                 <div className="mx-auto">
-                    <div className="flex flex-row space-x-20">
-                        <div className='w-1/2'>
+                    <div className="flex lg:flex-row flex-col lg:space-x-20 space-y-10">
+                        <div className='lg:w-1/2'>
                             <div className="w-[400px] h-[400px] rounded-xl overflow-hidden">
                                 <Image alt="join-us" src={"/join-team.avif"} height={0} width={0} sizes="100vw"
                                     style={{ width: '100%', height: '100%' }} className="rounded-lg" />
