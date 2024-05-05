@@ -21,7 +21,7 @@ export default function CompanyFeaturesMarquee() {
                       bg-transparent text-transparent outline-transparent lg:w-[300px] w-[400px]  ">
                                         <div className="flex flex-col mx-auto space-y-5 text-start pl-10 py-10">
                                             <div className="flex items-center justify-center">
-                                                <Image src={feature.icon} alt={feature.title} width={400} height={400} />
+                                                <Image src={feature.icon} alt={feature.title} width={200} height={200} />
                                             </div>
                                             <div className="flex flex-col space-y-3 text-start pl-10 py-10">
                                                 <h1 className="text-xl  font-extrabold tracking-tight sm:text-3xl">

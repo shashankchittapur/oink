@@ -8,7 +8,7 @@ import OurAchievements from '@/components/our-achievements'
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-between pb-24">
+    <main className="flex flex-col justify-between space-y-10 pb-24">
       <LandingMainPage />
       <MissionVision />
       <CompanyFeaturesMarquee />
