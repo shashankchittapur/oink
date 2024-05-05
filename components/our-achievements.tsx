@@ -6,7 +6,7 @@ import { Achievement } from "@/types/achievement";
 export default function OurAchievements() {
 
     return (
-        <div className="flex lg:mx-auto min-h-screen">
+        <div className="flex mx-auto min-h-screen">
             <div className="flex flex-col items-center justify-center min-h-screen space-y-10">
                 <div className="text-center space-y-5 w-3/4 pb-5">
                     <h4 className="text-4xl font-bold tracking-tight text-gray-400">OUR ACHIEVEMENTS</h4>
@@ -14,10 +14,10 @@ export default function OurAchievements() {
                         Numbers echo the footsteps of our journey through time
                     </h1>
                 </div>
-                <div className="grid lg:grid-cols-4 lg:grid-rows-2 grid-cols-2 lg:gap-10">
+                <div className="grid lg:grid-cols-4 lg:grid-rows-2 grid-cols-2 lg:gap-10 gap-5">
                     {
                         achievements.map((achievement: Achievement, index: number) => {
-                            return <AchievementCard key={index} title={achievement.title} description={achievement.description} image={achievement.image} />
+                            return <AchievementCard key={achievement.title} title={achievement.title} description={achievement.description} image={achievement.image} />
                         })
                     }
                 </div>
@@ -29,7 +29,7 @@ export default function OurAchievements() {
 
 function AchievementCard({ title, description, image }: { readonly title: string, readonly description: string, readonly image: string }) {
     return (
-        <div className="flex flex-col items-center justify-center space-y-3 w-[300px] h-[300px]">
+        <div className="flex flex-col items-center justify-center space-y-3 lg:w-[300px] lg:h-[300px]">
             <div className="border-2 dark:border-white border-black rounded-full p-8">
                 <Image src={image} width={75} height={75} alt="Achievement Image" />
             </div>

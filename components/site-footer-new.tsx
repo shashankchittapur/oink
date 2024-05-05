@@ -13,7 +13,7 @@ export default function SiteFooterNew() {
 
     return (
         <footer className="py-6 md:px-8 md:py-0 bottom-0 bg-gray-400">
-            <div className="flex lg:flex-row md:flex-col flex-col justify-center space-x-20 space-y-10 pt-10 pb-10">
+            <div className="flex lg:flex-row md:flex-col flex-col justify-center lg:space-x-20 p-10 space-y-10">
                 <div className="flex flex-col lg:items-start lg:justify-start items-center justify-center space-y-5">
                     <Link href="/" className="space-y-1">
                         <h2 className="text-3xl font-bold">Oink Solutions</h2>
